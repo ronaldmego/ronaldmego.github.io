@@ -330,16 +330,40 @@ a {
     top: 60px;
     right: -100%;
     height: auto;
+    max-height: calc(100vh - 60px); // Limita la altura al viewport menos la barra de navegación
     width: 100%;
     flex-direction: column;
-    background-color: white;
-    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.98);
+    padding: 1rem;
     transition: all 0.3s ease;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow-y: auto; // Permite scroll si el contenido es muy largo
+    
+    // Cuando está inactivo, oculta completamente el menú
+    visibility: hidden;
+    opacity: 0;
+    
+    .nav-link {
+      width: 100%;
+      text-align: center;
+      padding: 1rem;
+      border-bottom: 1px solid $border-color;
+      
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+    
+    .download-cv {
+      margin: 1rem 0;
+      display: block;
+    }
   }
   
   .nav-active {
     right: 0;
+    visibility: visible;
+    opacity: 1;
   }
   
   .nav-toggle.active {
@@ -356,6 +380,11 @@ a {
         bottom: 0;
       }
     }
+  }
+  
+  // Asegura que el contenido principal no se desplace cuando el menú está abierto
+  body.menu-open {
+    overflow: hidden;
   }
   
   .contact-info {
