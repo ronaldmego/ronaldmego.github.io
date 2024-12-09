@@ -596,3 +596,66 @@ a {
     margin: 1rem;
   }
 }
+
+// Optimizaciones para imágenes en GitHub Pages
+
+// Imágenes de portada
+.post-cover {
+  margin: -1.5rem -1.5rem 1.5rem;
+  background: #f5f5f5; // Fallback mientras carga la imagen
+  
+  img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+// Imágenes dentro del contenido
+.post-content {
+  // Imágenes en Markdown
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+  }
+  
+  // Layouts especiales con HTML
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+    
+    .image-item {
+      img {
+        width: 100%;
+        border-radius: 8px;
+      }
+      
+      .caption {
+        text-align: center;
+        color: #666;
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+}
+
+// Optimizaciones para carga de imágenes
+img {
+  loading: lazy; // Carga lazy para todas las imágenes
+}
+
+@media (max-width: 768px) {
+  .post-cover img {
+    height: 200px; // Altura reducida en móviles
+  }
+  
+  .image-grid {
+    grid-template-columns: 1fr; // Una columna en móviles
+  }
+}
