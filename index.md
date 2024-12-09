@@ -24,11 +24,11 @@ title: Ronald Mego - CDAO
     <a href="https://www.linkedin.com/in/ronaldmego/" class="contact-item" target="_blank">
       <i class="fab fa-linkedin"></i> LinkedIn
     </a>
-    <a href="https://x.com/MGOData" class="contact-item" target="_blank">
-      <i class="fab fa-x-twitter"></i> Twitter
-    </a>
     <a href="https://github.com/ronaldmego" class="contact-item" target="_blank">
       <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="https://x.com/MGOData" class="contact-item" target="_blank">
+      <i class="fab fa-twitter"></i> Twitter
     </a>
   </div>
 </div>
