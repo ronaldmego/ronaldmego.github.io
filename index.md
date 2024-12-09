@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CDAO - Data Manager
+title: Ronald Mego - CDAO
 ---
 
 <div class="header-container">
