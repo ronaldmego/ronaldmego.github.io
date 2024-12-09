@@ -38,7 +38,7 @@ title: Portfolio - Ronald Mego
     </div>
     <div class="project-content">
       <h2>Data Pipeline Optimization</h2>
-      <p class="project-description">Pipeline de datos optimizado para procesamiento en tiempo real usando Apache Airflow y Snowflake, reduciendo costos operativos...</p>
+      <p class="project-description">Pipeline de datos optimizado para procesamiento de bigdata usando Apache Airflow y Snowflake, reduciendo costos operativos...</p>
       <div class="project-meta">
         <div class="technologies">
           <span class="tech">Airflow</span>

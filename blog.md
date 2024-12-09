@@ -5,7 +5,7 @@ title: Blog - Ronald Mego
 
 <div class="blog-header">
   <h1>Blog</h1>
-  <p class="subtitle">Compartiendo conocimientos sobre Data, Analytics, y tecnología</p>
+  <p class="subtitle">Compartiendo mi experiencia sobre Data, Analytics, y tecnología</p>
 </div>
 
 <!-- Ejemplo de estructura para posts -->
