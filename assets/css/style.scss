@@ -7,6 +7,104 @@ $text-color: #24292e;
 $background-color: #ffffff;
 $border-color: #e1e4e8;
 
+// Navigation
+.main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid $border-color;
+  z-index: 1000;
+  height: 60px;
+}
+
+.nav-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-logo {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: $primary-color;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-link {
+  color: $text-color;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background-color: rgba($primary-color, 0.1);
+    color: $primary-color;
+    text-decoration: none;
+  }
+}
+
+.download-cv {
+  border: 1px solid $primary-color;
+  
+  &:hover {
+    background-color: $primary-color;
+    color: white;
+  }
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1001;
+}
+
+.hamburger {
+  display: block;
+  position: relative;
+  width: 24px;
+  height: 2px;
+  background: $text-color;
+  
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background: $text-color;
+    transition: all 0.3s ease;
+  }
+  
+  &::before {
+    top: -6px;
+  }
+  
+  &::after {
+    bottom: -6px;
+  }
+}
+
 // Typography
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
@@ -207,7 +305,7 @@ h1 {
 main {
   max-width: 960px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: calc(2rem + 60px) 2rem 2rem;
 }
 
 a {
@@ -216,5 +314,54 @@ a {
   
   &:hover {
     text-decoration: underline;
+  }
+}
+
+// Responsive Design
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+  }
+  
+  .nav-links {
+    position: fixed;
+    top: 60px;
+    right: -100%;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    background-color: white;
+    padding: 2rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .nav-active {
+    right: 0;
+  }
+  
+  .nav-toggle.active {
+    .hamburger {
+      background: transparent;
+      
+      &::before {
+        transform: rotate(45deg);
+        top: 0;
+      }
+      
+      &::after {
+        transform: rotate(-45deg);
+        bottom: 0;
+      }
+    }
+  }
+  
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .experience-meta {
+    flex-direction: column;
   }
 }
