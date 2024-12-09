@@ -1,0 +1,8 @@
+mygithubpage/
+├── _config.yml
+├── _layouts
+│       └── default.html
+├── assets
+│       └── css
+│           └── style.scss
+└── index.md
