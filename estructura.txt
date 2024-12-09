@@ -3,6 +3,13 @@ mygithubpage/
 ├── _layouts
 │       └── default.html
 ├── assets
-│       └── css
-│           └── style.scss
-└── index.md
+│   │   ├── css
+│   │       └── style.scss
+│   │   ├── docs
+│   │       └── RonaldMego_CV.pdf
+│       └── images
+│       │   ├── favicon-16x16.png
+│           └── favicon-32x32.png
+├── blog.md
+├── index.md
+└── portfolio.md
