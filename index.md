@@ -8,7 +8,7 @@ title: Ronald Mego - CDAO
   <h1>Ronald Mego</h1>
   
   <div class="title-container">
-    <h2>Chief Data Analytics Officer | MBA & B.Sc. in Statistics | Artificial Intelligence | Data Governance</h2>
+    <h2>Chief Data Analytics Officer | MBA & B.Sc. in Statistics | Machine Learning | Artificial Intelligence</h2>
   </div>
 
   <div class="contact-info">
