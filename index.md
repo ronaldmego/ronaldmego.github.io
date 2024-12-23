@@ -35,7 +35,7 @@ title: Ronald Mego - CDAO
 
 ## Profile
 
-Ronald holds a B.Sc. in Statistics and an MBA, offering a blended profile across Data, Analytics, Technology, and Business. He has over 15 years of experience in the Telco, Fintech, and Digital sectors. He has primarily led projects in Data Strategy, Data Governance, Business Intelligence, and Artificial Intelligence. Ronald is proficient in programming languages to address Data, Analytics, ML, and automation needs. He has led Analytics and Data Engineering teams, focusing on creating value with data efficiently, optimizing budgets, and achieving monetizable results. He bridges the gap between technical language and business needs by translating complex data and analytics concepts into projects that align with the goals of C-level stakeholders. The roles Ronald has held include Data Team Manager, Sr. Data Analyst, Sr. Data Scientist, and Sr. Data Engineer.
+Ronald is a senior Data professional with over 15 years of experience in the Telecommunications, Fintech, and Digital sectors. He has a hybrid profile in Data, Analytics, Technology, and Business, which has enabled him to lead projects in Data Strategy, Data Governance, Business Intelligence, Machine Learning, Artificial Intelligence, and Data Monetization. He has focused on driving value through data efficiently, achieving tangible results in finance, growth, and customer experience. He has led multidisciplinary and multicultural teams, bridging the gap between business needs and C-level stakeholders with the technical language of his teams. This approach has allowed him to translate complex concepts into solutions aligned with strategic business goals while strengthening team integration with key areas such as technology, cybersecurity, marketing, and finance. Ronald has held roles such as Data Team Manager, Sr. Data Analyst, Sr. Data Scientist, and Sr. Data Engineer. He is proficient in programming languages like SQL, Python, and R, and combines a strong background in Statistics with an MBA. This allows him to transform mathematical, statistical, and programming foundations into strategic value for the business while fostering a strong Data Culture within the organization.
 
 ## Professional Experience
 
@@ -70,7 +70,7 @@ Ronald holds a B.Sc. in Statistics and an MBA, offering a blended profile across
   <ul>
     <li>Design and lead the Customer Analytics strategy, integrating business objectives with analytics capabilities.</li>
     <li>Create from scratch the first customer behavior analysis and dashboards, incorporating data analysis and machine learning, and fostering revenue analytics opportunities using R-Studio and Snowflake.</li>
-    <li>Develop segmentation models for campaigns in LATAM, increasing the digital user base by 10 p.p. by optimizing CAC and conversion rates in Braze.</li>
+    <li>Develop user segmentation models for campaigns in LATAM, increasing the digital user base by 10 percentage points by optimizing CAC and conversion rates in Braze.</li>
     <li>Create the first revenue analytics and customer engagement models, delivering them in executive dashboards and automating data workflows for revenue management and campaign measurement in Tableau.</li>
     <li>Build the analytics team and their profiles from scratch, accelerating and standardizing report delivery in HQ and 6 countries.</li>
     <li>Supervise and guide a team of 8 direct people.</li>
@@ -88,7 +88,7 @@ Ronald holds a B.Sc. in Statistics and an MBA, offering a blended profile across
   </div>
   <ul>
     <li>Develop user segmentation models and content recommendation models, supporting business objectives related to subscription growth and engagement.</li>
-    <li>Manage and train on data tools for digital news consumption analysis and A/B testing, providing support to the digital editorial team.</li>
+    <li>Manage analytics tools to grow digital audiences, using real-time A/B testing with Chartbeat and Comscore.</li>
     <li>Lead data architecture projects using BigQuery and QlikView for the administration of the digital group's data.</li>
     <li>Develop B2B and B2C dashboards to support strategies for digitalization and data monetization in programmatic advertising, using Google Analytics and Chartbeat.</li>
     <li>Lead and promote the adoption of automation through RPA with Artificial Intelligence, successfully automating manual tasks between accounting operations and the reading of KPIs from various external sources.</li>
