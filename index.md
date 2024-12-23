@@ -4,28 +4,31 @@ title: Ronald Mego - CDAO
 ---
 
 <div class="header-container">
-  <img src="{{ site.logo }}" alt="Ronald Mego" class="profile-image">
-  <h1>Ronald Mego</h1>
+  <img src="{{ site.logo }}" alt="{{ personal.name }} {{ personal.lastname }}" class="profile-image">
+  <h1>{{ personal.name }} {{ personal.lastname }}</h1>
   
   <div class="title-container">
-    <h2>Chief Data Analytics Officer | MBA & B.Sc. in Statistics | Machine Learning | Artificial Intelligence</h2>
+    <h2>{{ personal.header }}</h2>
   </div>
 
   <div class="contact-info">
-    <a href="tel:+50764654515" class="contact-item">
-      <i class="fas fa-phone"></i> {{ personal.mobile }}
+    <a href="tel:+507 64654515" class="contact-item">
+      <i class="fas fa-phone"></i> +507 64654515
     </a>
-    <a href="mailto:{{ personal.email }}" class="contact-item">
-      <i class="fas fa-envelope"></i> {{ personal.email }}
+    <a href="mailto:ronald.mego@outlook.com" class="contact-item">
+      <i class="fas fa-envelope"></i> ronald.mego@outlook.com
     </a>
     <span class="contact-item">
-      <i class="fas fa-map-marker-alt"></i> {{ personal.location }}
+      <i class="fas fa-map-marker-alt"></i> Panama City, PA
     </span>
-    <a href="{{ personal.linkedin_url }}" class="contact-item" target="_blank">
+    <a href="https://www.linkedin.com/in/ronaldmego/" class="contact-item" target="_blank">
       <i class="fab fa-linkedin"></i> LinkedIn
     </a>
-    <a href="{{ personal.github_url }}" class="contact-item" target="_blank">
+    <a href="https://github.com/ronaldmego" class="contact-item" target="_blank">
       <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="https://x.com/MGOData" class="contact-item" target="_blank">
+      <i class="fab fa-twitter"></i> Twitter
     </a>
   </div>
 </div>
@@ -196,7 +199,7 @@ Ronald is a senior Data professional with over 15 years of experience in the Tel
 </ul>
 </div>
 <div class="certifications">
-<h3>Technical Skills certifications</h3>
+<h3>Technical Skills and Certifications</h3>
 <ul>
 <li>AWS Cloud Certified Cloud Practitioner (Apr. 2024) - <a href="https://www.credly.com/badges/b1438ac5-468e-4964-b6ac-2894b7e2204b/linked_in_profile" target="_blank">Amazon Web Services</a></li>
 <li>Cloud Data en Azure (Dec. 2023) - <a href="https://www.credential.net/f49190f2-99e2-4af9-83a9-26bef312b87f?username=ronaldfriizmegosolano20070" target="_blank">Bootcamp Institute & Microsoft</a></li>
