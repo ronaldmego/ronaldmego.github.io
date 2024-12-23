@@ -184,6 +184,28 @@ Ronald is a senior Data professional with over 15 years of experience in the Tel
 </div>
 
 
+## Technical Skills and Certifications
+
+<div class="certifications">
+<h3>Specialized Programs and Diplomas</h3>
+<ul>
+<li>Data Monetization, Management, and Trends (May. 2024) - <a href="https://courses.edx.org/certificates/447c3529a7dc42aa8bf27297a97b0c88" target="_blank">IEUniversity & edX</a></li>
+<li>Data Strategy: Data as Competitive Advantage (Jan. 2022) - <a href="https://certificates.emeritus.org/39607ed0-10b6-4387-be32-5b34af6a5040" target="_blank">Berkeley Executive Education</a></li>
+<li>Entrepreneurship and Innovation Program (May. 2018) - <a href="https://www.credential.net/54b357e1-243e-47ea-a40f-bcfdcfa04b18?username=ronaldfriizmegosolano20070" target="_blank">Darden School of Business - Charlottesville, VA, USA</a></li>
+<li>Diploma in Applied Finance (Jul. 2012) - <a href="https://www.credential.net/322f33cb-ee81-453d-994a-3f81db550be9?username=ronaldfriizmegosolano20070" target="_blank">Universidad del Pacifico</a></li>
+</ul>
+</div>
+<div class="certifications">
+<h3>Technical Skills certifications</h3>
+<ul>
+<li>AWS Cloud Certified Cloud Practitioner (Apr. 2024) - <a href="https://www.credly.com/badges/b1438ac5-468e-4964-b6ac-2894b7e2204b/linked_in_profile" target="_blank">Amazon Web Services</a></li>
+<li>Cloud Data en Azure (Dec. 2023) - <a href="https://www.credential.net/f49190f2-99e2-4af9-83a9-26bef312b87f?username=ronaldfriizmegosolano20070" target="_blank">Bootcamp Institute & Microsoft</a></li>
+<li>GCP, Big Data and ML (May. 2020) - <a href="https://www.coursera.org/account/accomplishments/certificate/RPWJ8S2L8CYW" target="_blank">Coursera & Google</a></li>
+<li>Data Science in Python (Aug. 2020) - <a href="https://www.coursera.org/account/accomplishments/verify/MYX5XU65HP95" target="_blank">Coursera & University of Michigan</a></li>
+</ul>
+</div>
+
+
 ## Skills
 
 <div class="skills-section">
