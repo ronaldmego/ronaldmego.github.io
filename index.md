@@ -4,11 +4,11 @@ title: Ronald Mego - CDAO
 ---
 
 <div class="header-container">
-  <img src="{{ site.logo }}" alt="{{ personal.name }} {{ personal.lastname }}" class="profile-image">
-  <h1>{{ personal.name }} {{ personal.lastname }}</h1>
+  <img src="{{ site.logo }}" alt="Ronald Mego" class="profile-image">
+  <h1>Ronald Mego</h1>
   
   <div class="title-container">
-    <h2>{{ personal.header }}</h2>
+    <h2>Chief Data Analytics Officer (CDAO) | MBA & B.Sc. in Statistics | Machine Learning | Artificial Intelligence</h2>
   </div>
 
   <div class="contact-info">

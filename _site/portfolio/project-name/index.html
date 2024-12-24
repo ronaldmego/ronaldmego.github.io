@@ -1,0 +1,92 @@
+<h1 id="rag-implementation-framework">RAG Implementation Framework</h1>
+
+<h2 id="descripción-general">Descripción General</h2>
+<p>Framework desarrollado para implementar soluciones de Retrieval Augmented Generation (RAG) en entornos empresariales, optimizando el uso de recursos y mejorando la precisión de las respuestas.</p>
+
+<h2 id="problema-y-solución">Problema y Solución</h2>
+<h3 id="el-desafío">El Desafío</h3>
+<p>Las empresas necesitaban una forma eficiente de implementar RAG que:</p>
+<ul>
+  <li>Fuera escalable para grandes volúmenes de datos</li>
+  <li>Mantuviera costos operativos bajos</li>
+  <li>Garantizara la precisión de las respuestas</li>
+</ul>
+
+<h3 id="la-solución">La Solución</h3>
+<p>Desarrollamos un framework que:</p>
+<ul>
+  <li>Utiliza LangChain para la gestión de LLMs</li>
+  <li>Implementa vectorización eficiente con FAISS</li>
+  <li>Se integra con servicios AWS para escalabilidad</li>
+</ul>
+
+<h2 id="arquitectura">Arquitectura</h2>
+
+<p><img src="/assets/images/portfolio/rag-framework/arquitectura.jpg" alt="Arquitectura del Sistema" /></p>
+
+<p>La arquitectura se compone de tres componentes principales:</p>
+<ol>
+  <li>Sistema de ingesta y procesamiento</li>
+  <li>Motor de vectorización</li>
+  <li>Pipeline de inferencia</li>
+</ol>
+
+<h2 id="tecnologías-utilizadas">Tecnologías Utilizadas</h2>
+<ul>
+  <li><strong>Backend</strong>: Python, FastAPI</li>
+  <li><strong>Servicios AWS</strong>: Lambda, SageMaker, S3</li>
+  <li><strong>Base de Datos</strong>: Snowflake</li>
+  <li><strong>Frameworks</strong>: LangChain, Pytorch</li>
+</ul>
+
+<h2 id="resultados">Resultados</h2>
+<ul>
+  <li>Reducción del 40% en costos de procesamiento</li>
+  <li>Mejora del 25% en precisión de respuestas</li>
+  <li>Tiempo de respuesta promedio &lt; 2 segundos</li>
+</ul>
+
+<h2 id="capturas-de-pantalla">Capturas de Pantalla</h2>
+
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/assets/images/portfolio/rag-framework/screenshot1.jpg" alt="Dashboard Principal" />
+    <p class="caption">Dashboard de monitoreo de precisión</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/assets/images/portfolio/rag-framework/screenshot2.jpg" alt="Análisis de Resultados" />
+    <p class="caption">Análisis de resultados y métricas</p>
+  </div>
+</div>
+
+<h2 id="código-destacado">Código Destacado</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">create_rag_pipeline</span><span class="p">(</span><span class="n">documents</span><span class="p">,</span> <span class="n">embeddings_model</span><span class="o">=</span><span class="sh">"</span><span class="s">text-embedding-ada-002</span><span class="sh">"</span><span class="p">):</span>
+    <span class="c1"># Inicializar embeddings
+</span>    <span class="n">embeddings</span> <span class="o">=</span> <span class="nc">OpenAIEmbeddings</span><span class="p">(</span><span class="n">model</span><span class="o">=</span><span class="n">embeddings_model</span><span class="p">)</span>
+    
+    <span class="c1"># Crear vectorstore
+</span>    <span class="n">vectorstore</span> <span class="o">=</span> <span class="n">FAISS</span><span class="p">.</span><span class="nf">from_documents</span><span class="p">(</span><span class="n">documents</span><span class="p">,</span> <span class="n">embeddings</span><span class="p">)</span>
+    
+    <span class="c1"># Configurar retriever
+</span>    <span class="n">retriever</span> <span class="o">=</span> <span class="n">vectorstore</span><span class="p">.</span><span class="nf">as_retriever</span><span class="p">(</span>
+        <span class="n">search_type</span><span class="o">=</span><span class="sh">"</span><span class="s">similarity</span><span class="sh">"</span><span class="p">,</span>
+        <span class="n">search_kwargs</span><span class="o">=</span><span class="p">{</span><span class="sh">"</span><span class="s">k</span><span class="sh">"</span><span class="p">:</span> <span class="mi">3</span><span class="p">}</span>
+    <span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">retriever</span>
+</code></pre></div></div>
+
+<h2 id="lecciones-aprendidas">Lecciones Aprendidas</h2>
+<ol>
+  <li>La importancia de la optimización temprana</li>
+  <li>El balance entre precisión y costos</li>
+  <li>La necesidad de monitoreo constante</li>
+</ol>
+
+<h2 id="enlaces">Enlaces</h2>
+<ul>
+  <li><a href="link-to-docs">Documentación Completa</a></li>
+  <li><a href="link-to-article">Artículo Técnico</a></li>
+  <li><a href="link-to-video">Video Demo</a></li>
+</ul>

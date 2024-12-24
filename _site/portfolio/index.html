@@ -1,0 +1,119 @@
+<!-- _layouts/default.html -->
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Chief Data Analytics Officer | Data & AI Leader">
+    <title>Ronald Mego - CDAO</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="nav-container">
+        <a href="/" class="nav-logo">RM</a>
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <div class="nav-links">
+          <a href="/" class="nav-link">CV</a>
+          <a href="/portfolio" class="nav-link">Portfolio</a>
+          <a href="/blog" class="nav-link">Blog</a>
+          <a href="/assets/docs/RonaldMego_CV.pdf" class="nav-link download-cv">
+            <i class="fas fa-download"></i> Download CV
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <main>
+        <div class="portfolio-header">
+  <h1>Portfolio</h1>
+  <p class="subtitle">Proyectos destacados en Data Analytics, Machine Learning y AI</p>
+</div>
+
+<div class="projects-grid">
+  <!-- Example Project 1 - Coming Soon -->
+  <article class="project-card coming-soon">
+    <div class="project-image">
+      <img src="/api/placeholder/400/200" alt="LangChain RAG Project" />
+    </div>
+    <div class="project-content">
+      <h2>RAG Implementation Framework</h2>
+      <p class="project-description">Un framework para implementar soluciones RAG (Retrieval Augmented Generation) escalables en entornos empresariales usando LangChain y AWS...</p>
+      <div class="project-meta">
+        <div class="technologies">
+          <span class="tech">Python</span>
+          <span class="tech">AWS</span>
+          <span class="tech">LangChain</span>
+        </div>
+        <div class="links">
+          <a href="#" class="link-disabled"><i class="fab fa-github"></i> Próximamente</a>
+          <a href="#" class="link-disabled"><i class="fas fa-external-link-alt"></i> Demo</a>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Example Project 2 - Coming Soon -->
+  <article class="project-card coming-soon">
+    <div class="project-image">
+      <img src="/api/placeholder/400/200" alt="Data Pipeline Project" />
+    </div>
+    <div class="project-content">
+      <h2>Data Pipeline Optimization</h2>
+      <p class="project-description">Pipeline de datos optimizado para procesamiento de bigdata usando Apache Airflow y Snowflake, reduciendo costos operativos...</p>
+      <div class="project-meta">
+        <div class="technologies">
+          <span class="tech">Airflow</span>
+          <span class="tech">Snowflake</span>
+          <span class="tech">Python</span>
+        </div>
+        <div class="links">
+          <a href="#" class="link-disabled"><i class="fab fa-github"></i> Próximamente</a>
+          <a href="#" class="link-disabled"><i class="fas fa-external-link-alt"></i> Demo</a>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
+
+<div class="section-message">
+  <i class="fas fa-tools"></i>
+  <h3>Portfolio en Construcción</h3>
+  <p>Estoy preparando la documentación de proyectos interesantes en Data Analytics, ML y AI. ¡Vuelve pronto!</p>
+</div>
+
+      </main>
+      <footer>
+        <p class="text-center">
+          © 2024 Ronald Mego - CDAO. Powered by <a href="https://pages.github.com">GitHub Pages</a>.
+        </p>
+      </footer>
+    </div>
+    <script>
+      const navToggle = document.querySelector('.nav-toggle');
+      const navLinks = document.querySelector('.nav-links');
+      
+      navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('nav-active');
+        navToggle.classList.toggle('active');
+        document.body.classList.toggle('menu-open');
+      });
+    
+      // Cierra el menú cuando se hace clic en un enlace
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('nav-active');
+          navToggle.classList.remove('active');
+          document.body.classList.remove('menu-open');
+        });
+      });
+    </script>
+  </body>
+</html>
