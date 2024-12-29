@@ -35,7 +35,7 @@ title: Ronald Mego - CDAO
 
 ## Profile
 
-Ronald is a senior Data professional with over 15 years of experience in the Telecommunications, Fintech, and Digital sectors. He has a hybrid profile in Data, Analytics, Technology, and Business, which has enabled him to lead projects in Data Strategy, Data Governance, Business Intelligence, Machine Learning, Artificial Intelligence, and Data Monetization. He has focused on driving value through data efficiently, achieving tangible results in finance, growth, and customer experience. He has led multidisciplinary and multicultural teams, bridging the gap between business needs and C-level stakeholders with the technical language of his teams. This approach has allowed him to translate complex concepts into solutions aligned with strategic business goals while strengthening team integration with key areas such as technology, cybersecurity, marketing, and finance. Ronald has held roles such as Data Team Manager, Sr. Data Analyst, Sr. Data Scientist, and Sr. Data Engineer. He is proficient in programming languages like SQL, Python, and R, and combines a strong background in Statistics with an MBA. This allows him to transform mathematical, statistical, and programming foundations into strategic value for the business while fostering a strong Data Culture within the organization.
+Ronald is a senior Data professional with over 15 years of experience leading data-driven strategies across Telecommunications, Fintech, and Digital industries. He has a hybrid profile in Analytics, Technology, and Business, which has enabled him to lead projects in Data Governance, Data Science, Machine Learning, Artificial Intelligence, and Data Monetization, focusing on driving value through data efficiently, optimizing budgets, and achieving monetizable results in finance, growth, and customer experience. He has led multicultural data-teams across countries and coordinated with global vendors. In projects, Ronald translates complex statistical concepts using Data Storytelling and visualization tools, presenting actionable insights to senior stakeholders in a clear and compelling way. He is proficient in programming languages like SQL, Python, and R, and combines a strong background in Statistics with an MBA. This allows him to transform mathematical, statistical, and computer science foundations into strategic value for the business while fostering a strong Data Culture in the team and the organization. Ronald has held roles such as Data Team Manager, Sr. Data Analyst, Sr. Data Scientist, and Sr. Data Engineer.
 
 ## Professional Experience
 
@@ -50,12 +50,11 @@ Ronald is a senior Data professional with over 15 years of experience in the Tel
     </div>
   </div>
   <ul>
-        <li>Design, implement, and lead Data Strategy and innovation projects with the regional Datalake, aimed at generating New Revenue Streams, including initiatives such as Data Monetization and operational efficiencies powered by Generative AI and LLMs.</li>
-        <li>Plan and execute the data chapter budget, aligning with Millicom's efficiencies and achieving a 35% YoY optimization in Snowflake and AWS costs.</li>
-        <li>Data Governance of 50MM Telco and 5MM MFS users for use by HQ, 9 countries, and specialized teams such as Lending, AML, Fraud, Finance, and Marketing.</li>
-        <li>Lead the migration of dashboards from Tableau to Power BI and Streamlit, optimizing nearly 70 dashboards for HQ and 6 countries, reducing costs and achieving end-user satisfaction.</li>
-        <li>Lead the migration to a hybrid Data LakeHouse with Snowflake and Redshift, defining the best solution for each business case.</li>
-        <li>Supervise a team of 9 direct reports and oversee indirect reports across countries, ensuring alignment with strategic goals.</li>
+        <li>Design and lead advanced analytics frameworks and standards across countries, ensuring data quality and consistency, driving advanced customer segmentation, predictive analytics, and 1st-party data monetization, generating new revenue streams.</li>
+        <li>Spearhead Millicom’s Artificial Intelligence roadmap across countries, implementing innovative AI solutions such as RAG-based LLM Chatbots for analytics-driven automation and insights generation, enabling data-informed decisions, improving customer service processes, and driving operational efficiencies.</li>
+        <li>Build and execute the Regional Data Roadmap, achieving a 35% YoY cost optimization by migrating over 400 processes and 70 dashboards from Tableau to Power BI and transitioning Snowflake and AWS workloads, while maintaining seamless delivery of insights and analytical capabilities across the organization.</li>
+        <li>Establish and monitor Data Governance practices for 50MM Telco and 5MM MFS users, ensuring data quality and providing accurate data and reports to HQ, specialized teams, and global stakeholders.</li>
+        <li>Lead a team of 9 direct reports and oversee indirect teams across countries, coordinating with global vendors and senior leadership to align analytics initiatives with organizational priorities and deliver impactful results.</li>
   </ul>
 </div>
 
@@ -69,12 +68,12 @@ Ronald is a senior Data professional with over 15 years of experience in the Tel
     </div>
   </div>
   <ul>
-        <li>Design and lead the Customer Analytics strategy focused on customer loyalty, acquisition, and churn prediction, seamlessly integrating business objectives with advanced analytics capabilities such as marketing mix modeling and lifetime value analysis.</li>
-        <li>Create from scratch the first customer behavior models, including lifetime value and marketing mix analytics, achieving significant marketing budget optimization with improved campaign results.</li>
-        <li>Develop segmentation models for LATAM campaigns, optimizing customer acquisition cost (CAC) and conversion rates, and automating deployment through Braze and AWS.</li>
-        <li>Implement revenue analytics by RGUs segmentation, designing next best offer (NBO) strategies tailored to each segment, and automating these processes into real-time data pipelines for dynamic tracking and optimization.</li>
-        <li>Build the analytics team and their profiles from scratch, accelerating insights delivery and standardizing reporting across headquarters and six countries.</li>
-        <li>Supervise a team of 8 direct reports and oversee indirect reports across countries, ensuring alignment with strategic goals.</li>
+        <li>Design and lead the Customer Intelligence strategy across 6 countries, driving customer engagement, loyalty, and revenue growth by integrating advanced analytics with business objectives, reporting directly to the CMO.</li>
+        <li>Develop and implement customer behavior models, including lifetime value (LTV) and marketing mix analytics, optimizing marketing budgets, reducing churn by 10 p.p., and driving measurable revenue growth.</li>
+        <li>Introduce revenue analytics through RGUs segmentation, designing next best offer (NBO) strategies with dynamic data pipelines, achieving up to 5% elasticity in targeted campaigns and enhancing personalization.</li>
+        <li>Build and deploy customer behavioral segmentation models to personalize loyalty and engagement campaigns using tools like Braze and AWS, reducing customer acquisition costs (CAC) and increasing conversion rates by 5 p.p.</li>
+        <li>Establish and grow the analytics team from the ground up, accelerating insights delivery, standardizing reporting processes, and fostering a data-driven culture across headquarters and regional operations.</li>
+        <li>Lead a team of 8 direct reports and oversee indirect teams across the region, ensuring alignment with strategic goals and delivering actionable insights to senior stakeholders.</li>
   </ul>
 </div>
 
