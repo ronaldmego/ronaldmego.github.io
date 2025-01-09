@@ -9,53 +9,34 @@ title: Portfolio - Ronald Mego
 </div>
 
 <div class="projects-grid">
-  <!-- Example Project 1 - Coming Soon -->
-  <article class="project-card coming-soon">
-    <div class="project-image">
-      <img src="/api/placeholder/400/200" alt="LangChain RAG Project">
-    </div>
-    <div class="project-content">
-      <h2>RAG Implementation Framework</h2>
-      <p class="project-description">Un framework para implementar soluciones RAG (Retrieval Augmented Generation) escalables en entornos empresariales usando LangChain y AWS...</p>
-      <div class="project-meta">
-        <div class="technologies">
-          <span class="tech">Python</span>
-          <span class="tech">AWS</span>
-          <span class="tech">LangChain</span>
-        </div>
-        <div class="links">
-          <a href="#" class="link-disabled"><i class="fab fa-github"></i> Próximamente</a>
-          <a href="#" class="link-disabled"><i class="fas fa-external-link-alt"></i> Demo</a>
+  {% for project in site.projects %}
+  <article class="project-card">
+    <a href="{{ project.url }}" class="project-link">
+      <div class="project-image">
+        {% if project.cover_image %}
+          <img src="{{ project.cover_image }}" alt="{{ project.title }}">
+        {% endif %}
+      </div>
+      <div class="project-content">
+        <h2>{{ project.title }}</h2>
+        <p class="project-description">{{ project.description }}</p>
+        <div class="project-meta">
+          <div class="technologies">
+            {% for tech in project.technologies %}
+              <span class="tech">{{ tech }}</span>
+            {% endfor %}
+          </div>
+          <div class="links">
+            {% if project.github_link %}
+              <a href="{{ project.github_link }}" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            {% endif %}
+            {% if project.demo_link %}
+              <a href="{{ project.demo_link }}" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            {% endif %}
+          </div>
         </div>
       </div>
-    </div>
+    </a>
   </article>
-
-  <!-- Example Project 2 - Coming Soon -->
-  <article class="project-card coming-soon">
-    <div class="project-image">
-      <img src="/api/placeholder/400/200" alt="Data Pipeline Project">
-    </div>
-    <div class="project-content">
-      <h2>Data Pipeline Optimization</h2>
-      <p class="project-description">Pipeline de datos optimizado para procesamiento de bigdata usando Apache Airflow y Snowflake, reduciendo costos operativos...</p>
-      <div class="project-meta">
-        <div class="technologies">
-          <span class="tech">Airflow</span>
-          <span class="tech">Snowflake</span>
-          <span class="tech">Python</span>
-        </div>
-        <div class="links">
-          <a href="#" class="link-disabled"><i class="fab fa-github"></i> Próximamente</a>
-          <a href="#" class="link-disabled"><i class="fas fa-external-link-alt"></i> Demo</a>
-        </div>
-      </div>
-    </div>
-  </article>
-</div>
-
-<div class="section-message">
-  <i class="fas fa-tools"></i>
-  <h3>Portfolio en Construcción</h3>
-  <p>Estoy preparando la documentación de proyectos interesantes en Data Analytics, ML y AI. ¡Vuelve pronto!</p>
+  {% endfor %}
 </div>

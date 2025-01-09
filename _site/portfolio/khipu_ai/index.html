@@ -1,0 +1,81 @@
+<!-- _layouts/default.html -->
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Chief Data Analytics Officer | Data & AI Leader">
+    <title>Ronald Mego - CDAO</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="nav-container">
+        <a href="/" class="nav-logo">RM</a>
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <div class="nav-links">
+          <a href="/" class="nav-link">CV</a>
+          <a href="/portfolio" class="nav-link">Portfolio</a>
+          <a href="/blog" class="nav-link">Blog</a>
+          <a href="/assets/docs/RonaldMego_CV.pdf" class="nav-link download-cv">
+            <i class="fas fa-download"></i> Download CV
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <main>
+        <article class="project">
+  <h1 id="-khipu-ai">📊 Khipu AI</h1>
+
+<p>Un asistente de análisis de datos impulsado por IA que permite consultar bases de datos MySQL usando lenguaje natural. Este proyecto combina LangChain, RAG (Retrieval Augmented Generation) y modelos de lenguaje para traducir preguntas en lenguaje natural a consultas SQL y presentar resultados de manera interactiva.</p>
+
+<h2 id="-características-principales">🌟 Características Principales</h2>
+
+<ul>
+  <li>Procesamiento de Lenguaje Natural a SQL usando LangChain y modelos LLM</li>
+  <li>Compatibilidad con cualquier conjunto de datos estructurado en MySQL</li>
+  <li>RAG para mejorar respuestas con documentación específica del dominio</li>
+  <li>Soporte para múltiples proveedores de LLM (OpenAI, Ollama)</li>
+  <li>Interfaz intuitiva con Streamlit</li>
+  <li>Generación automática de gráficos basados en consultas</li>
+  <li>Soporte multilingüe</li>
+  <li>Panel de depuración y sistema de logging integrado</li>
+</ul>
+
+</article>
+      </main>
+      <footer>
+        <p class="text-center">
+          © 2025 Ronald Mego - CDAO. Powered by <a href="https://pages.github.com">GitHub Pages</a>.
+        </p>
+      </footer>
+    </div>
+    <script>
+      const navToggle = document.querySelector('.nav-toggle');
+      const navLinks = document.querySelector('.nav-links');
+      
+      navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('nav-active');
+        navToggle.classList.toggle('active');
+        document.body.classList.toggle('menu-open');
+      });
+    
+      // Cierra el menú cuando se hace clic en un enlace
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('nav-active');
+          navToggle.classList.remove('active');
+          document.body.classList.remove('menu-open');
+        });
+      });
+    </script>
+  </body>
+</html>
