@@ -1,4 +1,39 @@
-<h1 id="rag-implementation-framework">RAG Implementation Framework</h1>
+<!-- _layouts/default.html -->
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Chief Data Analytics Officer | Data & AI Leader">
+    <title>Ronald Mego - CDAO</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="nav-container">
+        <a href="/" class="nav-logo">RM</a>
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <div class="nav-links">
+          <a href="/" class="nav-link">CV</a>
+          <a href="/portfolio" class="nav-link">Portfolio</a>
+          <a href="/blog" class="nav-link">Blog</a>
+          <a href="/assets/docs/RonaldMego_CV.pdf" class="nav-link download-cv">
+            <i class="fas fa-download"></i> Download CV
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <main>
+        <article class="project">
+  <h1 id="rag-implementation-framework">RAG Implementation Framework</h1>
 
 <h2 id="descripción-general">Descripción General</h2>
 <p>Framework desarrollado para implementar soluciones de Retrieval Augmented Generation (RAG) en entornos empresariales, optimizando el uso de recursos y mejorando la precisión de las respuestas.</p>
@@ -90,3 +125,33 @@
   <li><a href="link-to-article">Artículo Técnico</a></li>
   <li><a href="link-to-video">Video Demo</a></li>
 </ul>
+
+</article>
+      </main>
+      <footer>
+        <p class="text-center">
+          © 2025 Ronald Mego - CDAO. Powered by <a href="https://pages.github.com">GitHub Pages</a>.
+        </p>
+      </footer>
+    </div>
+    <script>
+      const navToggle = document.querySelector('.nav-toggle');
+      const navLinks = document.querySelector('.nav-links');
+      
+      navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('nav-active');
+        navToggle.classList.toggle('active');
+        document.body.classList.toggle('menu-open');
+      });
+    
+      // Cierra el menú cuando se hace clic en un enlace
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('nav-active');
+          navToggle.classList.remove('active');
+          document.body.classList.remove('menu-open');
+        });
+      });
+    </script>
+  </body>
+</html>

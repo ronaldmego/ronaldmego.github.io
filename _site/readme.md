@@ -2,38 +2,62 @@
 
 Este repositorio contiene mi sitio web personal, construido con Jekyll y alojado en GitHub Pages. El sitio incluye mi CV, portfolio y blog.
 
-## 🏗️ Estructura del Proyecto
+# Desarrollo Local
 
+1. Instalar Ruby:
+   - Descargar Ruby+Devkit de [RubyInstaller](https://rubyinstaller.org/downloads/)
+   - Instalar la versión WITH DEVKIT (ej: Ruby+Devkit 3.2.X (x64))
+   - Ejecutar el instalador y seguir los pasos, incluyendo el MSYS2
+   - Verificar instalación: `ruby -v`
+
+2. Instalar Jekyll y Bundler:
+```bash
+gem install jekyll bundler
 ```
-mygithubpage/
-├── _config.yml                 # Configuración principal de Jekyll
-├── _layouts                    # Templates de páginas
-│   ├── default.html           # Layout base
-│   └── post.html              # Layout para posts
-├── _posts                      # Posts del blog
-│   └── YYYY-MM-DD-titulo.md
-├── _projects                   # Proyectos del portfolio
-│   └── project-name.md
-├── assets
-│   ├── css
-│   │   └── style.scss         # Estilos del sitio
-│   ├── docs
-│   │   ├── RonaldMego_CV.pdf
-│   │   └── estructura.txt
-│   └── images
-│       ├── blog               # Imágenes de posts
-│       │   └── YYYY-MM-DD-post-name/
-│       │       ├── cover.jpg
-│       │       └── other-images/
-│       ├── portfolio          # Imágenes de proyectos
-│       │   └── project-name/
-│       │       ├── cover.jpg
-│       │       └── screenshots/
-│       └── favicon.png
-├── blog.md                     # Página principal del blog
-├── index.md                    # Página principal (CV)
-└── portfolio.md                # Página principal del portfolio
+
+3. Clonar el repositorio:
+```bash
+git clone https://github.com/yourusername/yourrepo.git
+cd yourrepo
 ```
+
+4. Instalar dependencias:
+```bash
+bundle install
+```
+
+5. Ejecutar el servidor local:
+```bash
+bundle exec jekyll serve
+```
+
+6. Acceder al sitio:
+- Local: http://127.0.0.1:4000 o http://localhost:4000
+- Para actualización en tiempo real: `bundle exec jekyll serve --livereload`
+- Para detener el servidor: Ctrl+C
+
+# Despliegue en GitHub Pages
+
+1. Configurar GitHub Pages:
+   - Repositorio debe nombrarse: `username.github.io`
+   - Habilitar GitHub Pages en Settings > Pages
+   - Seleccionar branch main como source
+
+2. Publicar cambios:
+```bash
+git add .
+git commit -m "Update website"
+git push origin main
+```
+
+3. Acceder al sitio:
+- Remoto: https://username.github.io
+
+# Problemas Comunes
+
+- Si hay errores de dependencias: `bundle update`
+- Para limpiar caché: `bundle exec jekyll clean`
+- Para forzar regeneración: `bundle exec jekyll serve --force_polling`
 
 ## 🔧 Configuración
 
