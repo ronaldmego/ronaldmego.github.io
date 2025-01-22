@@ -45,4 +45,5 @@ wheels/
 
 
 #Ignore Folder or subfolders
-**/ref*
+ref/
+draft/

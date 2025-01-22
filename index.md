@@ -8,7 +8,7 @@ title: Ronald Mego - CDAO
   <h1>Ronald Mego</h1>
   
   <div class="title-container">
-    <h2>Chief Data Analytics Officer (CDAO) | MBA & B.Sc. in Statistics | Machine Learning | Artificial Intelligence</h2>
+    <h2>Sr. Data Manager | Data Analytics | Machine Learning | Generative AI | Telecom | Fintech</h2>
   </div>
 
   <div class="contact-info">
@@ -42,7 +42,7 @@ Ronald is a senior Data professional with over 15 years of experience leading da
 
 <div class="experience-item">
   <div class="experience-header">
-    <h3>Regional Head of Data (CDAO)</h3>
+    <h3>Regional Head of Data</h3>
     <div class="experience-meta">
       <span class="company"><a href="https://www.millicom.com/" target="_blank">Millicom | Tigo</a></span>
       <span class="location">Panama City, PA</span>

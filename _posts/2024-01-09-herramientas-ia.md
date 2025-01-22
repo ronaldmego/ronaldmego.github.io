@@ -54,3 +54,8 @@ Para aprovechar al máximo estas herramientas:
 ## Conclusión
 
 Estas herramientas han demostrado ser invaluables en mi trabajo diario como profesional de datos. La clave está en usarlas como complemento, no como reemplazo, de nuestras habilidades analíticas y criterio profesional.
+
+
+## Extras por agregar:
+
+- Favicon: https://www.ionos.es/tools/crear-favicon.html
