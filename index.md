@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ronald Mego - CDAO
+title: Ronald Mego - Data
 ---
 
 <div class="header-container">
@@ -12,8 +12,8 @@ title: Ronald Mego - CDAO
   </div>
 
   <div class="contact-info">
-    <a href="tel:+507 64654515" class="contact-item">
-      <i class="fas fa-phone"></i> +507 64654515
+    <a href="tel:+51 937443453" class="contact-item">
+      <i class="fas fa-phone"></i> +51 937443453
     </a>
     <a href="mailto:ronald.mego@outlook.com" class="contact-item">
       <i class="fas fa-envelope"></i> ronald.mego@outlook.com
