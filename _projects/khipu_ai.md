@@ -26,6 +26,7 @@ Este conjunto de agentes logra ejectuar de manera local, modeos LLM que tienen h
 
 Pueden visitar el repo [aquí](https://github.com/ronaldmego/agent-sql-khipu_ai)
 
+![demo](/assets/images/portfolio/khipu_ai/khipu_AI.gif)
 ![demo](/assets/images/portfolio/khipu_ai/khipu000.png)
 ![demo](/assets/images/portfolio/khipu_ai/khipu001.png)
 ![demo](/assets/images/portfolio/khipu_ai/khipu003.png)
