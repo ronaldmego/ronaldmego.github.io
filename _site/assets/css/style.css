@@ -458,6 +458,22 @@ a:hover {
   pointer-events: none;
 }
 
+.project {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+.project img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 8px;
+}
+.project img + p {
+  margin-top: 1rem;
+}
+
 .section-message {
   text-align: center;
   padding: 3rem;

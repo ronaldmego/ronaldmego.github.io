@@ -508,7 +508,7 @@ a {
       }
     }
   }
-  
+
   .project-content {
     padding: 1.5rem;
     
@@ -556,6 +556,26 @@ a {
         }
       }
     }
+  }
+}
+
+
+// Nuevo estilo independiente para páginas individuales de proyecto
+.project {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 8px;
+  }
+
+  img + p {
+    margin-top: 1rem;
   }
 }
 
