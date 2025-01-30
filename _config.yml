@@ -29,3 +29,7 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  - scope:
+      path: ""
+    values:
+      layout: default
