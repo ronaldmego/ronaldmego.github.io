@@ -28,4 +28,5 @@ Se tomo la api de peliculas de [tmdb.org](tmdb.org) para fines de demostración,
 
 Dashboard ilustrativo disponible [aquí](https://ronaldmego.github.io/quarto-dashboard-movies/dashboard.html)
 
-![demo](../assets/images/portfolio/quarto_automation/quarto_automation_dashboard.png)
+![demo](/assets/images/portfolio/quarto_automation/quarto_automation_cover.png)
+![demo](/assets/images/portfolio/quarto_automation/quarto_automation_dashboard.png)
