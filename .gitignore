@@ -18,6 +18,7 @@ build/
 develop-eggs/
 dist/
 downloads/
+project_to_markdown_output/
 eggs/
 .eggs/
 lib/
