@@ -874,6 +874,11 @@ img {
     &:hover { border-color: #0077b5; }
   }
   
+  &.github {
+    i { color: #333; }
+    &:hover { border-color: #333; }
+  }
+
   &.twitter {
     i { color: #1da1f2; }
     &:hover { border-color: #1da1f2; }
@@ -894,6 +899,11 @@ img {
     &:hover { border-color: #000000; }
   }
   
+  &.whatsapp {
+    i { color: #000000; }
+    &:hover { border-color: #000000; }
+  }
+
   &.linktree {
     i { color: #43e660; }
     &:hover { border-color: #43e660; }

@@ -749,6 +749,12 @@ img {
 .contact-card.linkedin:hover {
   border-color: #0077b5;
 }
+.contact-card.github i {
+  color: #333;
+}
+.contact-card.github:hover {
+  border-color: #333;
+}
 .contact-card.twitter i {
   color: #1da1f2;
 }
@@ -771,6 +777,12 @@ img {
   color: #000000;
 }
 .contact-card.tiktok:hover {
+  border-color: #000000;
+}
+.contact-card.whatsapp i {
+  color: #000000;
+}
+.contact-card.whatsapp:hover {
   border-color: #000000;
 }
 .contact-card.linktree i {
