@@ -1,0 +1,128 @@
+<!-- _layouts/default.html -->
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sr. Data Manager | Gen AI | Automatization | Data Science | Data Engineering | Data Governance | Data Quality | Data Privacy | Data Security | Data Strategy | Data Visualization | Data Warehousing | Data Analytics | Data Mining | Data Modeling | Data Integration | Data Migration | Data Architecture">
+    <title>Ronald Mego - Data</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="nav-container">
+        <a href="/" class="nav-logo">RM</a>
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <div class="nav-links">
+          <a href="/" class="nav-link">Home</a>
+          <a href="/portfolio" class="nav-link">Portfolio</a>
+          <a href="/blog" class="nav-link">Blog</a>
+          <a href="/background" class="nav-link">Background</a>
+          <a href="/contact" class="nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <main>
+        <article class="project">
+  <h1 id="-análisis-de-sentimientos-con-llm-local">📊 Análisis de Sentimientos con LLM Local</h1>
+
+<p>Sistema de análisis de sentimientos que aprovecha el poder de los modelos de lenguaje locales (LLM) para clasificar texto de manera eficiente y segura. Diseñado para procesar grandes volúmenes de datos textuales con un enfoque en rendimiento y privacidad.</p>
+
+<h2 id="-características-principales">🌟 Características Principales</h2>
+
+<ul>
+  <li><strong>Procesamiento Local</strong>: Implementación de Phi4 a través de Ollama, garantizando privacidad y control total sobre los datos</li>
+  <li><strong>Procesamiento por Lotes</strong>: Sistema optimizado para manejar grandes volúmenes de datos con procesamiento batch configurable</li>
+  <li><strong>Interfaz Intuitiva</strong>: Dashboard interactivo desarrollado con Streamlit, permitiendo:
+    <ul>
+      <li>Carga flexible de archivos CSV</li>
+      <li>Configuración del tamaño de lotes para procesamiento</li>
+      <li>Visualización en tiempo real del progreso</li>
+      <li>Métricas dinámicas de clasificación</li>
+    </ul>
+  </li>
+  <li><strong>Visualizaciones Avanzadas</strong>: Gráficos interactivos con Plotly para análisis detallado de resultados</li>
+  <li><strong>Logging Robusto</strong>: Sistema completo de registro para seguimiento y depuración</li>
+  <li><strong>Altamente Extensible</strong>: Diseñado para adaptarse a diversos casos de uso como:
+    <ul>
+      <li>Análisis de encuestas</li>
+      <li>Clasificación de opiniones</li>
+      <li>Procesamiento de comentarios</li>
+      <li>Análisis de feedback de usuarios</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="-casos-de-uso">💡 Casos de Uso</h2>
+
+<ul>
+  <li>Análisis de retroalimentación de clientes</li>
+  <li>Monitoreo de sentimiento en redes sociales</li>
+  <li>Clasificación de reseñas de productos</li>
+  <li>Análisis de encuestas de satisfacción</li>
+  <li>Procesamiento de comentarios en plataformas digitales</li>
+</ul>
+
+<h2 id="-tecnologías-utilizadas">🔧 Tecnologías Utilizadas</h2>
+
+<ul>
+  <li><strong>LangChain</strong>: Para la orquestación de modelos y prompts</li>
+  <li><strong>Phi4 &amp; Ollama</strong>: Por su balance en calidad y consumo. <a href="https://ollama.com/library/phi4">Documentación Phi4</a></li>
+  <li><strong>Streamlit</strong>: Para la interfaz de usuario interactiva</li>
+  <li><strong>Plotly</strong>: Para visualizaciones dinámicas y responsivas</li>
+  <li><strong>Pandas</strong>: Para manipulación eficiente de datos</li>
+</ul>
+
+<h2 id="-repositorio">📂 Repositorio</h2>
+
+<p>Explora el código fuente y documentación completa en <a href="https://github.com/ronaldmego/text_classification_analysis">GitHub</a></p>
+
+<p><img src="/assets/images/portfolio/llm_classifier/llm-classifier.gif" alt="Demo de la Aplicación" /></p>
+
+<p><img src="/assets/images/portfolio/llm_classifier/image1.png" alt="Dashboard Principal" /></p>
+
+<p><img src="/assets/images/portfolio/llm_classifier/image2.png" alt="Análisis en Tiempo Real" /></p>
+
+<p><img src="/assets/images/portfolio/llm_classifier/image3.png" alt="Visualización de Resultados" /></p>
+
+<h2 id="-repositorio-1">📂 Repositorio</h2>
+
+<p>Explora el código fuente y documentación completa en <a href="https://github.com/ronaldmego/text_classification_analysis">GitHub</a></p>
+
+</article>
+      </main>
+      <footer>
+        <p class="text-center">
+          © 2025 Ronald Mego - Data. Powered by <a href="https://pages.github.com">GitHub Pages</a>.
+        </p>
+      </footer>
+    </div>
+    <script>
+      const navToggle = document.querySelector('.nav-toggle');
+      const navLinks = document.querySelector('.nav-links');
+      
+      navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('nav-active');
+        navToggle.classList.toggle('active');
+        document.body.classList.toggle('menu-open');
+      });
+    
+      // Cierra el menú cuando se hace clic en un enlace
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('nav-active');
+          navToggle.classList.remove('active');
+          document.body.classList.remove('menu-open');
+        });
+      });
+    </script>
+  </body>
+</html>
