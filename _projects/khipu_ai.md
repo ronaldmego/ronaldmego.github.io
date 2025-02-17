@@ -35,3 +35,6 @@ Pueden visitar el repo [aquí](https://github.com/ronaldmego/agent-sql-khipu_ai)
 ![demo](/assets/images/portfolio/khipu_ai/khipu006.png)
 
 Pueden visitar el repo [aquí](https://github.com/ronaldmego/agent-sql-khipu_ai)
+
+
+*¿Interesado en más contenido sobre Data Analytics y desarrollo profesional? No dudes en conectar conmigo en [Mis Redes](https://ronaldmego.github.io/contact/).*

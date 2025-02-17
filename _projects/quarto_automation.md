@@ -30,3 +30,6 @@ Dashboard ilustrativo disponible [aquí](https://ronaldmego.github.io/quarto-das
 
 ![demo](/assets/images/portfolio/quarto_automation/quarto_automation_cover.png)
 ![demo](/assets/images/portfolio/quarto_automation/quarto_automation_dashboard.png)
+
+
+*¿Interesado en más contenido sobre Data Analytics y desarrollo profesional? No dudes en conectar conmigo en [Mis Redes](https://ronaldmego.github.io/contact/).*

@@ -62,3 +62,5 @@ Explora el código fuente y documentación completa en [GitHub](https://github.c
 ## 📂 Repositorio
 
 Explora el código fuente y documentación completa en [GitHub](https://github.com/ronaldmego/text_classification_analysis)
+
+*¿Interesado en más contenido sobre Data Analytics y desarrollo profesional? No dudes en conectar conmigo en [Mis Redes](https://ronaldmego.github.io/contact/).*

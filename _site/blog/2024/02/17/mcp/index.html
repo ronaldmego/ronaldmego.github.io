@@ -1,0 +1,260 @@
+<!-- _layouts/default.html -->
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sr. Data Manager | Gen AI | Automatization | Data Science | Data Engineering | Data Governance | Data Quality | Data Privacy | Data Security | Data Strategy | Data Visualization | Data Warehousing | Data Analytics | Data Mining | Data Modeling | Data Integration | Data Migration | Data Architecture">
+    <title>Ronald Mego - Data</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="nav-container">
+        <a href="/" class="nav-logo">RM</a>
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <div class="nav-links">
+          <a href="/" class="nav-link">Home</a>
+          <a href="/portfolio" class="nav-link">Portfolio</a>
+          <a href="/blog" class="nav-link">Blog</a>
+          <a href="/background" class="nav-link">Background</a>
+          <a href="/contact" class="nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <main>
+        <article class="post">
+  <header class="post-header">
+    
+    <div class="post-cover">
+      <img src="/assets/images/blog/2025-02-17-mcp/mcp-cover.png" alt="Implementando un MCP Server para análisis de datos">
+    </div>
+    
+    
+    
+    
+    <div class="post-meta">
+      <span class="post-date">
+        <i class="fas fa-calendar"></i>
+        February 17, 2024
+      </span>
+      
+      
+      <span class="reading-time">
+        <i class="fas fa-clock"></i>
+        10 min lectura
+      </span>
+      
+      
+      
+      <div class="post-tags">
+        
+        <span class="tag">Data Analytics</span>
+        
+        <span class="tag">PostgreSQL</span>
+        
+        <span class="tag">Real-time Analytics</span>
+        
+        <span class="tag">Dashboard Development</span>
+        
+        <span class="tag">Data Visualization</span>
+        
+      </div>
+      
+    </div>
+  </header>
+
+  <div class="post-content">
+    <h1 id="implementando-un-mcp-server-para-análisis-de-datos">Implementando un MCP Server para análisis de datos</h1>
+
+<p>El <a href="https://www.claudemcp.com/docs/introduction">Model Context Protocol (MCP)</a> es un protocolo abierto que estandariza cómo las aplicaciones proporcionan contexto a los LLMs (Large Language Models). Si pensamos en una analogía, MCP es como un puerto USB-C para aplicaciones de IA: así como USB-C proporciona una forma estandarizada de conectar dispositivos a varios periféricos y accesorios, MCP proporciona una forma estandarizada de conectar modelos de IA a diferentes fuentes de datos y herramientas.</p>
+
+<h2 id="por-qué-usar-mcp">¿Por qué usar MCP?</h2>
+
+<p>MCP facilita la construcción de agentes y flujos de trabajo complejos sobre LLMs, ofreciendo:</p>
+<ul>
+  <li>Una lista creciente de integraciones pre-construidas que tu LLM puede usar directamente</li>
+  <li>Flexibilidad para cambiar entre diferentes proveedores y vendedores de LLM</li>
+  <li>Mejores prácticas para asegurar tus datos dentro de tu infraestructura</li>
+</ul>
+
+<h2 id="ecosistema-y-casos-de-uso">Ecosistema y Casos de Uso</h2>
+
+<p>La comunidad de MCP está desarrollando servidores para diversos casos de uso:</p>
+
+<h3 id="herramientas-de-desarrollo">Herramientas de Desarrollo</h3>
+<ul>
+  <li>Git: Herramientas para leer, buscar y manipular repositorios Git</li>
+  <li>GitHub/GitLab: Gestión de repositorios y operaciones de API</li>
+  <li>Sentry: Recuperación y análisis de issues</li>
+</ul>
+
+<h3 id="sistemas-de-datos-y-archivos">Sistemas de Datos y Archivos</h3>
+<ul>
+  <li>PostgreSQL: Acceso a bases de datos con capacidades de inspección de esquema</li>
+  <li>Google Drive: Acceso y búsqueda de archivos</li>
+  <li>Sistemas de archivos locales: Operaciones seguras con controles de acceso</li>
+</ul>
+
+<h3 id="productividad-y-comunicación">Productividad y Comunicación</h3>
+<ul>
+  <li>Slack: Gestión de canales y mensajería</li>
+  <li>Google Maps: Servicios de localización y detalles de lugares</li>
+  <li>Memory: Sistema de memoria persistente basado en grafos de conocimiento</li>
+</ul>
+
+<h3 id="herramientas-especializadas">Herramientas Especializadas</h3>
+<ul>
+  <li>EverArt: Generación de imágenes con IA usando varios modelos</li>
+  <li>Sequential Thinking: Resolución dinámica de problemas mediante secuencias de pensamiento</li>
+  <li>AWS KB Retrieval: Recuperación desde AWS Knowledge Base</li>
+</ul>
+
+<h2 id="recursos-oficiales">Recursos Oficiales</h2>
+
+<p>Para quienes deseen implementar su propio MCP Server, la documentación oficial proporciona recursos valiosos:</p>
+<ul>
+  <li><a href="https://modelcontextprotocol.io/quickstart/user">Guía de Inicio Rápido</a>: Tutorial paso a paso para comenzar</li>
+  <li><a href="https://www.claudemcp.com/docs/introduction">Documentación Completa</a>: Referencia detallada del protocolo y sus características</li>
+  <li><a href="https://www.claudemcp.com/servers/postgres">Caso de Uso PostgreSQL</a>: Guía específica para la integración con PostgreSQL</li>
+</ul>
+
+<h2 id="arquitectura-y-características-principales">Arquitectura y Características Principales</h2>
+
+<h3 id="sistema-de-chat-integrado">Sistema de Chat Integrado</h3>
+<ul>
+  <li>Interfaz interactiva para consultas en tiempo real</li>
+  <li>Procesamiento natural de preguntas sobre datos</li>
+  <li>Visualización inmediata de resultados de análisis</li>
+  <li>Histórico de consultas y respuestas</li>
+</ul>
+
+<h3 id="backend-con-postgresql">Backend con PostgreSQL</h3>
+<ul>
+  <li>Consultas SQL generadas automáticamente</li>
+  <li>Sistema de autenticación integrado</li>
+  <li>Procesamiento eficiente de análisis complejos</li>
+  <li>Visualización dinámica de resultados</li>
+</ul>
+
+<h2 id="demostración-del-sistema">Demostración del Sistema</h2>
+
+<p>En esta implementación, configuramos un servidor MCP para analizar datos de ventas, permitiendo:</p>
+<ul>
+  <li>Análisis de tendencias por producto</li>
+  <li>Evaluación del rendimiento de vendedores</li>
+  <li>Métricas de ventas en tiempo real</li>
+  <li>Visualizaciones dinámicas de datos</li>
+</ul>
+
+<h2 id="casos-de-uso-implementados">Casos de Uso Implementados</h2>
+
+<h3 id="análisis-de-ventas">Análisis de Ventas</h3>
+<ul>
+  <li>Consultas en lenguaje natural sobre métricas de ventas</li>
+  <li>Identificación automática de tendencias</li>
+  <li>Análisis comparativo de vendedores</li>
+  <li>Seguimiento de KPIs comerciales</li>
+</ul>
+
+<h3 id="visualización-de-datos">Visualización de Datos</h3>
+<ul>
+  <li>Generación automática de gráficos basados en consultas</li>
+  <li>Dashboards interactivos</li>
+  <li>Análisis temporal de tendencias</li>
+  <li>Exportación de resultados</li>
+</ul>
+
+<h2 id="demo-en-acción">Demo en Acción</h2>
+
+<p><img src="/assets/images/blog/2025-02-17-mcp/mcp-server.gif" alt="Demo del sistema" />
+<em>Demostración del MCP en funcionamiento</em></p>
+
+<p><img src="/assets/images/blog/2025-02-17-mcp/mcp-chat01.png" alt="chat parte 1" />
+<em>chat parte 1</em></p>
+
+<p><img src="/assets/images/blog/2025-02-17-mcp/mcp-chat02.png" alt="Chat parte 2" />
+<em>Chat parte 2</em></p>
+
+<p><img src="/assets/images/blog/2025-02-17-mcp/mcp-chat03.png" alt="Chat parte 3" />
+<em>Chat parte 3</em></p>
+
+<p><img src="/assets/images/blog/2025-02-17-mcp/mcp-chat04.png" alt="Chat parte 4" />
+<em>Chat parte 4</em></p>
+
+<p><img src="/assets/images/blog/2025-02-17-mcp/mcp-chat05.png" alt="Chat parte 5" />
+<em>Chat parte 5</em></p>
+
+<h2 id="conclusiones-y-próximos-pasos">Conclusiones y Próximos Pasos</h2>
+
+<p>La implementación de MCP Server con PostgreSQL ha demostrado ser una solución efectiva para democratizar el acceso a datos mediante interfaces conversacionales. Los próximos pasos incluyen:</p>
+<ul>
+  <li>Implementación de análisis predictivo</li>
+  <li>Integración con fuentes de datos adicionales</li>
+  <li>Desarrollo de nuevas capacidades de visualización</li>
+  <li>Optimización de rendimiento y escalabilidad</li>
+</ul>
+
+<h2 id="comenzando-con-mcp-server">Comenzando con MCP Server</h2>
+
+<p>Si estás interesado en implementar tu propio servidor MCP, te recomiendo seguir estos pasos:</p>
+<ol>
+  <li>Revisa la <a href="https://modelcontextprotocol.io/quickstart/user">guía de inicio rápido</a></li>
+  <li>Familiarízate con la <a href="https://www.claudemcp.com/docs/introduction">documentación oficial</a></li>
+  <li>Sigue el <a href="https://www.claudemcp.com/servers/postgres">tutorial de PostgreSQL</a> para la integración con bases de datos</li>
+</ol>
+
+<hr />
+<p><em>¿Interesado en más contenido sobre Data Analytics y desarrollo profesional? No dudes en conectar conmigo en <a href="https://ronaldmego.github.io/contact/">Mis Redes</a>.</em></p>
+
+  </div>
+  
+  <footer class="post-footer">
+    <div class="share-buttons">
+      <a href="https://twitter.com/intent/tweet?text=Implementando+un+MCP+Server+para+an%C3%A1lisis+de+datos&url=http://localhost:4000/blog/2024/02/17/mcp/" 
+         target="_blank" class="share-button twitter">
+        <i class="fab fa-twitter"></i> Compartir
+      </a>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blog/2024/02/17/mcp/&title=Implementando+un+MCP+Server+para+an%C3%A1lisis+de+datos" 
+         target="_blank" class="share-button linkedin">
+        <i class="fab fa-linkedin"></i> Compartir
+      </a>
+    </div>
+  </footer>
+</article>
+      </main>
+      <footer>
+        <p class="text-center">
+          © 2025 Ronald Mego - Data. Powered by <a href="https://pages.github.com">GitHub Pages</a>.
+        </p>
+      </footer>
+    </div>
+    <script>
+      const navToggle = document.querySelector('.nav-toggle');
+      const navLinks = document.querySelector('.nav-links');
+      
+      navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('nav-active');
+        navToggle.classList.toggle('active');
+        document.body.classList.toggle('menu-open');
+      });
+    
+      // Cierra el menú cuando se hace clic en un enlace
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('nav-active');
+          navToggle.classList.remove('active');
+          document.body.classList.remove('menu-open');
+        });
+      });
+    </script>
+  </body>
+</html>
