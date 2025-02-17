@@ -21,12 +21,6 @@ title: Contact - Ronald Mego
     <p>Code repositories & projects</p>
   </a>
   
-  <a href="https://wa.me/51937443453" class="contact-card whatsapp" target="_blank">  
-    <i class="fab fa-whatsapp"></i>  
-    <h3>Whatsapp</h3>  
-    <p>Let's chat on Whatsapp</p>  
-  </a>
-
   <a href="https://www.tiktok.com/@ronald_mego" class="contact-card tiktok" target="_blank">
     <i class="fab fa-tiktok"></i>
     <h3>TikTok</h3>
@@ -45,7 +39,7 @@ title: Contact - Ronald Mego
     <p>Behind the scenes & Data-Analytics life</p>
   </a>
   
-  <a href="https://www.youtube.com/@ronaldmego" class="contact-card youtube" target="_blank">
+  <a href="https://www.youtube.com/@aprendamosai" class="contact-card youtube" target="_blank">
     <i class="fab fa-youtube"></i>
     <h3>YouTube</h3>
     <p>In-depth tutorials & Data-Analytics content</p>
@@ -65,11 +59,4 @@ title: Contact - Ronald Mego
     ronald.mego@outlook.com
   </a>
   <p class="email-note">For business inquiries and collaborations</p>
-</div>
-
-<div class="download-cv-section">
-  <h2>Looking for my CV?</h2>
-  <a href="/assets/docs/RonaldMego_CV.pdf" class="download-cv-button">
-    <i class="fas fa-download"></i> Download CV
-  </a>
 </div>

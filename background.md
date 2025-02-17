@@ -27,10 +27,13 @@ title: Ronald Mego - Data
     <a href="https://x.com/MGOData" class="contact-item" target="_blank">
       <i class="fab fa-twitter"></i> Twitter
     </a>
-    <a href="https://wa.me/51937443453" class="contact-item" target="_blank">  
-      <i class="fab fa-whatsapp"></i> Whatsapp
-    </a>
   </div>
+</div>
+
+<div class="download-cv-section">
+  <a href="/assets/docs/RonaldMego_CV.pdf" class="download-cv-button">
+    <i class="fas fa-download"></i> Download CV
+  </a>
 </div>
 
 ## Profile
@@ -42,16 +45,31 @@ Ronald is a senior Data professional with over 15 years of experience leading da
 
 <div class="experience-item">
   <div class="experience-header">
-    <h3>Regional Head of Data</h3>
+    <h3>Data Analytics and Innovation Manager</h3>
     <div class="experience-meta">
       <span class="company"><a href="https://www.millicom.com/" target="_blank">Millicom | Tigo</a></span>
       <span class="location">Panama City, PA</span>
-      <span class="period">08/2023 ‐ present</span>
+      <span class="period">01/2025 ‐ present</span>
     </div>
   </div>
   <ul>
+        <li>Lead the development and execution of Millicom's AI Roadmap and Strategy</li>
         <li>Design and lead advanced analytics frameworks and standards across countries, ensuring data quality and consistency, driving advanced customer segmentation, predictive analytics, and 1st-party data monetization, generating new revenue streams.</li>
         <li>Spearhead Millicom’s Artificial Intelligence roadmap across countries, implementing innovative AI solutions such as RAG-based LLM Chatbots for analytics-driven automation and insights generation, enabling data-informed decisions, improving customer service processes, and driving operational efficiencies.</li>
+  </ul>
+</div>
+
+<div class="experience-item">
+  <div class="experience-header">
+    <h3>Head of Data - MFS</h3>
+    <div class="experience-meta">
+      <span class="company"><a href="https://www.millicom.com/" target="_blank">Millicom | Tigo</a></span>
+      <span class="location">Panama City, PA</span>
+      <span class="period">08/2023 ‐ 12/2024</span>
+    </div>
+  </div>
+  <ul>
+        <li>Lead and execute Tigo Money's Data Strategy to drive business outcomes and operational efficiencies.</li>
         <li>Build and execute the Regional Data Roadmap, achieving a 35% YoY cost optimization by migrating over 400 processes and 70 dashboards from Tableau to Power BI and transitioning Snowflake and AWS workloads, while maintaining seamless delivery of insights and analytical capabilities across the organization.</li>
         <li>Establish and monitor Data Governance practices for 50MM Telco and 5MM MFS users, ensuring data quality and providing accurate data and reports to HQ, specialized teams, and global stakeholders.</li>
         <li>Lead a team of 9 direct reports and oversee indirect teams across countries, coordinating with global vendors and senior leadership to align analytics initiatives with organizational priorities and deliver impactful results.</li>
@@ -60,7 +78,7 @@ Ronald is a senior Data professional with over 15 years of experience leading da
 
 <div class="experience-item">
   <div class="experience-header">
-    <h3>Regional Head of Customer Intelligence</h3>
+    <h3>Head of Marketing Analytics - MFS</h3>
     <div class="experience-meta">
       <span class="company"><a href="https://www.millicom.com/" target="_blank">Millicom | Tigo</a></span>
       <span class="location">Panama City, PA</span>
