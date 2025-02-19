@@ -33,125 +33,210 @@
     </nav>
     <div class="wrapper">
       <main>
-        <div class="portfolio-header">
-  <h1>Portfolio</h1>
-  <p class="subtitle">Proyectos destacados en Data Analytics, Machine Learning y AI</p>
+        <div class="professional-banner smaller">
+  <div class="banner-content">
+    <h1>Portfolio</h1>
+    <p class="tagline">Proyectos destacados en Data Analytics, Machine Learning y AI</p>
+  </div>
 </div>
 
-<div class="projects-grid">
-  
-  <article class="project-card">
-    <a href="/portfolio/khipu_ai/" class="project-link">
-      <div class="project-image">
-        
-          <img src="/assets/images/portfolio/khipu_ai/khipu_ai_cover.png" alt="Data AI team ~ Agentes Open AI y Deepseek colaborativos" />
-        
-      </div>
-      <div class="project-content">
-        <h2>Data AI team ~ Agentes Open AI y Deepseek colaborativos</h2>
-        <p class="project-description">Este proyecto delega las funciones de exploracion de datos y analisis critico a agentes OpenAI ⚙️ y Deepseek 🐋</p>
-        <div class="project-meta">
-          <div class="technologies">
-            
-              <span class="tech">LangChain</span>
-            
-              <span class="tech">RAG</span>
-            
-              <span class="tech">MySQL</span>
-            
-              <span class="tech">Streamlit</span>
-            
-              <span class="tech">OpenAI</span>
-            
-          </div>
-          <div class="links">
-            
-              <a href="https://github.com/ronaldmego/khipu_ai" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-            
-            
-              <a href="https://github.com/ronaldmego/khipu_ai" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
-            
-          </div>
-        </div>
-      </div>
-    </a>
-  </article>
-  
-  <article class="project-card">
-    <a href="/portfolio/quarto_automation/" class="project-link">
-      <div class="project-image">
-        
-          <img src="/assets/images/portfolio/quarto_automation/quarto_automation_cover.png" alt="Quarto + GithubActions + API_refresh Automatic Dashboard" />
-        
-      </div>
-      <div class="project-content">
-        <h2>Quarto + GithubActions + API_refresh Automatic Dashboard</h2>
-        <p class="project-description">Dashboard con actualización diaria implementado con Quarto y GitHub Actions, para demo de uso de Quarto y Github Actions para procesos de data</p>
-        <div class="project-meta">
-          <div class="technologies">
-            
-              <span class="tech">Quarto</span>
-            
-              <span class="tech">GitHub Actions</span>
-            
-              <span class="tech">R</span>
-            
-              <span class="tech">GT Tables</span>
-            
-          </div>
-          <div class="links">
-            
-              <a href="https://github.com/ronaldmego/Quarto-dashboard-movies" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-            
-            
-              <a href="https://ronaldmego.github.io/Quarto-dashboard-movies/dashboard.html" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
-            
-          </div>
-        </div>
-      </div>
-    </a>
-  </article>
-  
-  <article class="project-card">
-    <a href="/portfolio/llm_classifier/" class="project-link">
-      <div class="project-image">
-        
-          <img src="/assets/images/portfolio/llm_classifier/image1.png" alt="Análisis de Sentimientos con LLM Local: Phi4 &amp; Streamlit" />
-        
-      </div>
-      <div class="project-content">
-        <h2>Análisis de Sentimientos con LLM Local: Phi4 &amp; Streamlit</h2>
-        <p class="project-description">Sistema de análisis de sentimientos escalable utilizando Phi4 como LLM local a través de Ollama, optimizado para procesamiento eficiente de grandes volúmenes de texto</p>
-        <div class="project-meta">
-          <div class="technologies">
-            
-              <span class="tech">LangChain</span>
-            
-              <span class="tech">Phi4</span>
-            
-              <span class="tech">Ollama</span>
-            
-              <span class="tech">Streamlit</span>
-            
-              <span class="tech">Python</span>
-            
-              <span class="tech">Plotly</span>
-            
-          </div>
-          <div class="links">
-            
-              <a href="https://github.com/ronaldmego/text_classification_analysis" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-            
-            
-              <a href="https://github.com/ronaldmego/text_classification_analysis" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
-            
-          </div>
-        </div>
-      </div>
-    </a>
-  </article>
-  
+<div class="portfolio-filters">
+  <div class="container">
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+      <button class="filter-btn" data-filter="ai">Inteligencia Artificial</button>
+      <button class="filter-btn" data-filter="data-analytics">Data Analytics</button>
+      <button class="filter-btn" data-filter="automation">Automatización</button>
+    </div>
+  </div>
 </div>
+
+<div class="projects-container">
+  <div class="projects-grid">
+    
+    <article class="project-card" data-category="ai">
+      <a href="/portfolio/khipu_ai/" class="project-link">
+        <div class="project-image">
+          
+            <img src="/assets/images/portfolio/khipu_ai/khipu_ai_cover.png" alt="Data AI team ~ Agentes Open AI y Deepseek colaborativos" loading="lazy" />
+          
+          
+            <span class="status-badge completed">Completado</span>
+          
+        </div>
+        <div class="project-content">
+          <h2>Data AI team ~ Agentes Open AI y Deepseek colaborativos</h2>
+          <p class="project-description">Este proyecto delega las funciones de exploracion de datos y analisis critico a agentes OpenAI ⚙️ y Deepseek 🐋</p>
+          <div class="project-meta">
+            <div class="technologies">
+              
+                <span class="tech-tag">LangChain</span>
+              
+                <span class="tech-tag">RAG</span>
+              
+                <span class="tech-tag">MySQL</span>
+              
+                <span class="tech-tag">Streamlit</span>
+              
+                <span class="tech-tag">OpenAI</span>
+              
+            </div>
+            <div class="project-date">
+              <i class="far fa-calendar-alt"></i> January 2024
+            </div>
+            <div class="project-links">
+              
+                <a href="https://github.com/ronaldmego/khipu_ai" target="_blank" class="project-link-btn github">
+                  <i class="fab fa-github"></i> <span class="link-text">GitHub</span>
+                </a>
+              
+              
+                <a href="https://github.com/ronaldmego/khipu_ai" target="_blank" class="project-link-btn demo">
+                  <i class="fas fa-external-link-alt"></i> <span class="link-text">Demo</span>
+                </a>
+              
+            </div>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="project-card" data-category="automation">
+      <a href="/portfolio/quarto_automation/" class="project-link">
+        <div class="project-image">
+          
+            <img src="/assets/images/portfolio/quarto_automation/quarto_automation_cover.png" alt="Quarto + GithubActions + API_refresh Automatic Dashboard" loading="lazy" />
+          
+          
+            <span class="status-badge completed">Completado</span>
+          
+        </div>
+        <div class="project-content">
+          <h2>Quarto + GithubActions + API_refresh Automatic Dashboard</h2>
+          <p class="project-description">Dashboard con actualización diaria implementado con Quarto y GitHub Actions, para demo de uso de Quarto y Github Actions para procesos de data</p>
+          <div class="project-meta">
+            <div class="technologies">
+              
+                <span class="tech-tag">Quarto</span>
+              
+                <span class="tech-tag">GitHub Actions</span>
+              
+                <span class="tech-tag">R</span>
+              
+                <span class="tech-tag">GT Tables</span>
+              
+            </div>
+            <div class="project-date">
+              <i class="far fa-calendar-alt"></i> January 2024
+            </div>
+            <div class="project-links">
+              
+                <a href="https://github.com/ronaldmego/Quarto-dashboard-movies" target="_blank" class="project-link-btn github">
+                  <i class="fab fa-github"></i> <span class="link-text">GitHub</span>
+                </a>
+              
+              
+                <a href="https://ronaldmego.github.io/Quarto-dashboard-movies/dashboard.html" target="_blank" class="project-link-btn demo">
+                  <i class="fas fa-external-link-alt"></i> <span class="link-text">Demo</span>
+                </a>
+              
+            </div>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="project-card" data-category="ai">
+      <a href="/portfolio/llm_classifier/" class="project-link">
+        <div class="project-image">
+          
+            <img src="/assets/images/portfolio/llm_classifier/image1.png" alt="Análisis de Sentimientos con LLM Local: Phi4 &amp; Streamlit" loading="lazy" />
+          
+          
+            <span class="status-badge completed">Completado</span>
+          
+        </div>
+        <div class="project-content">
+          <h2>Análisis de Sentimientos con LLM Local: Phi4 &amp; Streamlit</h2>
+          <p class="project-description">Sistema de análisis de sentimientos escalable utilizando Phi4 como LLM local a través de Ollama, optimizado para procesamiento eficiente de grandes volúmenes de texto</p>
+          <div class="project-meta">
+            <div class="technologies">
+              
+                <span class="tech-tag">LangChain</span>
+              
+                <span class="tech-tag">Phi4</span>
+              
+                <span class="tech-tag">Ollama</span>
+              
+                <span class="tech-tag">Streamlit</span>
+              
+                <span class="tech-tag">Python</span>
+              
+                <span class="tech-tag">Plotly</span>
+              
+            </div>
+            <div class="project-date">
+              <i class="far fa-calendar-alt"></i> February 2024
+            </div>
+            <div class="project-links">
+              
+                <a href="https://github.com/ronaldmego/text_classification_analysis" target="_blank" class="project-link-btn github">
+                  <i class="fab fa-github"></i> <span class="link-text">GitHub</span>
+                </a>
+              
+              
+                <a href="https://github.com/ronaldmego/text_classification_analysis" target="_blank" class="project-link-btn demo">
+                  <i class="fas fa-external-link-alt"></i> <span class="link-text">Demo</span>
+                </a>
+              
+            </div>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+  </div>
+</div>
+
+<div class="contact-cta">
+  <div class="cta-content">
+    <h2>¿Interesado en colaborar en un proyecto?</h2>
+    <a href="/contact" class="cta-button">Conversemos <i class="fas fa-arrow-right"></i></a>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        // Remove active class from all buttons
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        
+        // Add active class to clicked button
+        this.classList.add('active');
+        
+        const filter = this.dataset.filter;
+        
+        projectCards.forEach(card => {
+          if (filter === 'all' || card.dataset.category === filter) {
+            card.style.display = 'block';
+            // Add animation class
+            setTimeout(() => {
+              card.classList.add('fade-in');
+            }, 100);
+          } else {
+            card.style.display = 'none';
+            card.classList.remove('fade-in');
+          }
+        });
+      });
+    });
+  });
+</script>
+
 
       </main>
       <footer>
