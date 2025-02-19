@@ -68,7 +68,7 @@ title: Contact - Ronald Mego
     <h2 class="form-title">Envíame un mensaje</h2>
     <p class="form-subtitle">Cuéntame sobre tu proyecto o consulta</p>
     
-    <form class="contact-form" id="contact-form" action="https://formspree.io/f/your-formspree-id" method="POST">
+    <form class="contact-form" id="contact-form" action="https://formspree.io/f/xbldqwpb" method="POST">
       <div class="form-row">
         <div class="form-group">
           <label for="name">Nombre</label>
@@ -98,6 +98,11 @@ title: Contact - Ronald Mego
         </label>
       </div>
       
+      <!-- Campos ocultos para Formspree - colocar AQUÍ, justo antes del botón -->
+      <input type="hidden" name="_next" value="https://ronaldmego.github.io/contact?submitted=true">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="Nuevo mensaje desde ronaldmego.github.io">
+      
       <button type="submit" class="submit-button">
         Enviar mensaje <i class="fas fa-paper-plane"></i>
       </button>
@@ -115,27 +120,27 @@ title: Contact - Ronald Mego
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.getElementById('contact-form');
+    const originalContent = contactForm.innerHTML;
     
     contactForm.addEventListener('submit', function(e) {
-      e.preventDefault();
-      
-      // Aquí puedes agregar validación de formulario si lo deseas
-      
-      // Simular envío (reemplazar con tu lógica real)
       const submitButton = this.querySelector('.submit-button');
       submitButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Enviando...';
       submitButton.disabled = true;
       
-      // Simular respuesta exitosa después de 1.5 segundos
-      setTimeout(() => {
-        this.innerHTML = `
-          <div class="success-message">
-            <i class="fas fa-check-circle"></i>
-            <h3>¡Mensaje enviado con éxito!</h3>
-            <p>Gracias por contactarme. Te responderé a la brevedad posible.</p>
-          </div>
-        `;
-      }, 1500);
+      // El formulario se enviará normalmente a Formspree
+      // No necesitamos prevenir el comportamiento predeterminado
     });
+    
+    // Verificar si el usuario viene de vuelta después de enviar el formulario
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('submitted') === 'true') {
+      contactForm.innerHTML = `
+        <div class="success-message">
+          <i class="fas fa-check-circle"></i>
+          <h3>¡Mensaje enviado con éxito!</h3>
+          <p>Gracias por contactarme. Te responderé a la brevedad posible.</p>
+        </div>
+      `;
+    }
   });
 </script>
