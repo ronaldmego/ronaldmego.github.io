@@ -10,16 +10,18 @@ title: Ronald Mego - Professional Background
   </div>
 </div>
 
-<div class="profile-summary">
+<div class="profile-section">
   <div class="container">
-    <div class="download-cv-button-container">
-      <a href="/assets/docs/RonaldMego_CV.pdf" class="download-cv-button">
-        <i class="fas fa-download"></i> Download CV
-      </a>
+    <div class="profile-card">
+      <div class="download-cv-button-container">
+        <a href="/assets/docs/RonaldMego_CV.pdf" class="download-cv-button">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+      </div>
+      <h2>Profile</h2>
+      <p class="summary-text">Ronald is a senior Data professional with over 15 years of experience leading data-driven strategies across Telecommunications, Fintech, and Digital industries. He has a hybrid profile in Analytics, Technology, and Business, which has enabled him to lead projects in Data Governance, Data Science, Machine Learning, Artificial Intelligence, and Data Monetization, focusing on driving value through data efficiently, optimizing budgets, and achieving monetizable results in finance, growth, and customer experience.</p>
+      <p class="summary-text">He has led multicultural data-teams across countries and coordinated with global vendors. In projects, Ronald translates complex statistical concepts using Data Storytelling and visualization tools, presenting actionable insights to senior stakeholders in a clear and compelling way. He is proficient in programming languages like SQL, Python, and R, and combines a strong background in Statistics with an MBA.</p>
     </div>
-    <h2>Profile</h2>
-    <p class="summary-text">Ronald is a senior Data professional with over 15 years of experience leading data-driven strategies across Telecommunications, Fintech, and Digital industries. He has a hybrid profile in Analytics, Technology, and Business, which has enabled him to lead projects in Data Governance, Data Science, Machine Learning, Artificial Intelligence, and Data Monetization, focusing on driving value through data efficiently, optimizing budgets, and achieving monetizable results in finance, growth, and customer experience.</p>
-    <p class="summary-text">He has led multicultural data-teams across countries and coordinated with global vendors. In projects, Ronald translates complex statistical concepts using Data Storytelling and visualization tools, presenting actionable insights to senior stakeholders in a clear and compelling way. He is proficient in programming languages like SQL, Python, and R, and combines a strong background in Statistics with an MBA.</p>
   </div>
 </div>
 

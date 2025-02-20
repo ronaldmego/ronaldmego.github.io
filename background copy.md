@@ -1,57 +1,25 @@
-<!-- _layouts/default.html -->
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Sr. Data Manager | Gen AI | Automatization | Data Science | Data Engineering | Data Governance | Data Quality | Data Privacy | Data Security | Data Strategy | Data Visualization | Data Warehousing | Data Analytics | Data Mining | Data Modeling | Data Integration | Data Migration | Data Architecture">
-    <title>Ronald Mego - Data</title>
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
-    <link rel="stylesheet" href="/assets/css/style.css?v=">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  </head>
-  <body>
-    <nav class="main-nav">
-      <div class="nav-container">
-        <a href="/" class="nav-logo">
-          <img src="/assets/images/favicon-32x32.png" alt="RM" class="nav-logo-img">
-        </a>
-        <button class="nav-toggle" aria-label="toggle navigation">
-          <span class="hamburger"></span>
-        </button>
-        <div class="nav-links">
-          <a href="/" class="nav-link">Home</a>
-          <a href="/portfolio" class="nav-link">Portfolio</a>
-          <a href="/blog" class="nav-link">Blog</a>
-          <a href="/background" class="nav-link">Background</a>
-          <a href="/contact" class="nav-link">Contact</a>
-        </div>
-      </div>
-    </nav>
-    <div class="wrapper">
-      <main>
-        <div class="professional-banner smaller">
+---
+layout: default
+title: Ronald Mego - Professional Background
+---
+
+<div class="professional-banner smaller">
   <div class="banner-content">
     <h1>Professional Background</h1>
     <p class="tagline">15+ years transforming data into strategic value.</p>
   </div>
 </div>
 
-<div class="profile-section">
+<div class="profile-summary">
   <div class="container">
-    <div class="profile-card">
-      <div class="download-cv-button-container">
-        <a href="/assets/docs/RonaldMego_CV.pdf" class="download-cv-button">
-          <i class="fas fa-download"></i> Download CV
-        </a>
-      </div>
-      <h2>Profile</h2>
-      <p class="summary-text">Ronald is a senior Data professional with over 15 years of experience leading data-driven strategies across Telecommunications, Fintech, and Digital industries. He has a hybrid profile in Analytics, Technology, and Business, which has enabled him to lead projects in Data Governance, Data Science, Machine Learning, Artificial Intelligence, and Data Monetization, focusing on driving value through data efficiently, optimizing budgets, and achieving monetizable results in finance, growth, and customer experience.</p>
-      <p class="summary-text">He has led multicultural data-teams across countries and coordinated with global vendors. In projects, Ronald translates complex statistical concepts using Data Storytelling and visualization tools, presenting actionable insights to senior stakeholders in a clear and compelling way. He is proficient in programming languages like SQL, Python, and R, and combines a strong background in Statistics with an MBA.</p>
+    <div class="download-cv-button-container">
+      <a href="/assets/docs/RonaldMego_CV.pdf" class="download-cv-button">
+        <i class="fas fa-download"></i> Download CV
+      </a>
     </div>
+    <h2>Profile</h2>
+    <p class="summary-text">Ronald is a senior Data professional with over 15 years of experience leading data-driven strategies across Telecommunications, Fintech, and Digital industries. He has a hybrid profile in Analytics, Technology, and Business, which has enabled him to lead projects in Data Governance, Data Science, Machine Learning, Artificial Intelligence, and Data Monetization, focusing on driving value through data efficiently, optimizing budgets, and achieving monetizable results in finance, growth, and customer experience.</p>
+    <p class="summary-text">He has led multicultural data-teams across countries and coordinated with global vendors. In projects, Ronald translates complex statistical concepts using Data Storytelling and visualization tools, presenting actionable insights to senior stakeholders in a clear and compelling way. He is proficient in programming languages like SQL, Python, and R, and combines a strong background in Statistics with an MBA.</p>
   </div>
 </div>
 
@@ -266,7 +234,7 @@
           <i class="fas fa-award"></i>
         </div>
         <div class="education-details">
-          <h3>Diploma Data Leadership &amp; Leveraging Data Systems</h3>
+          <h3>Diploma Data Leadership & Leveraging Data Systems</h3>
           <div class="school-info">
             <a href="https://www.credential.net/f6bd85db-4850-4f50-9609-7990eb0aaadc" target="_blank" class="school-link">Massachusetts Institute of Technology</a>
             <span class="education-period">2024</span>
@@ -297,7 +265,7 @@
         </div>
         
         <div class="skill-category">
-          <h3><i class="fas fa-code"></i> Programming &amp; Cloud</h3>
+          <h3><i class="fas fa-code"></i> Programming & Cloud</h3>
           <div class="skill-tags">
             <span class="skill-tag">Python</span>
             <span class="skill-tag">R</span>
@@ -314,7 +282,7 @@
         </div>
         
         <div class="skill-category">
-          <h3><i class="fas fa-brain"></i> Machine Learning &amp; AI</h3>
+          <h3><i class="fas fa-brain"></i> Machine Learning & AI</h3>
           <div class="skill-tags">
             <span class="skill-tag">Statistical Modeling</span>
             <span class="skill-tag">PyTorch</span>
@@ -358,7 +326,7 @@
               <div class="certification-info">
                 <h4>Data Monetization, Management, and Trends</h4>
                 <div class="certification-meta">
-                  <span class="certification-provider">IEUniversity &amp; edX</span>
+                  <span class="certification-provider">IEUniversity & edX</span>
                   <span class="certification-date">May 2024</span>
                 </div>
                 <a href="https://courses.edx.org/certificates/447c3529a7dc42aa8bf27297a97b0c88" target="_blank" class="certification-link">
@@ -419,7 +387,7 @@
               <div class="certification-info">
                 <h4>Cloud Data en Azure</h4>
                 <div class="certification-meta">
-                  <span class="certification-provider">Bootcamp Institute &amp; Microsoft</span>
+                  <span class="certification-provider">Bootcamp Institute & Microsoft</span>
                   <span class="certification-date">Dec 2023</span>
                 </div>
                 <a href="https://www.credential.net/f49190f2-99e2-4af9-83a9-26bef312b87f?username=ronaldfriizmegosolano20070" target="_blank" class="certification-link">
@@ -433,7 +401,7 @@
               <div class="certification-info">
                 <h4>GCP, Big Data and ML</h4>
                 <div class="certification-meta">
-                  <span class="certification-provider">Coursera &amp; Google</span>
+                  <span class="certification-provider">Coursera & Google</span>
                   <span class="certification-date">May 2020</span>
                 </div>
                 <a href="https://www.coursera.org/account/accomplishments/certificate/RPWJ8S2L8CYW" target="_blank" class="certification-link">
@@ -475,61 +443,3 @@
     });
   });
 </script>
-
-
-      </main>
-      <footer>
-        <p class="text-center">
-          © 2025 Ronald Mego - Data. Powered by <a href="https://pages.github.com">GitHub Pages</a>.
-        </p>
-      </footer>
-    </div>
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const navToggle = document.querySelector('.nav-toggle');
-        const navLinks = document.querySelector('.nav-links');
-        
-        if (navToggle && navLinks) {
-          navToggle.addEventListener('click', function() {
-            // Toggle clase activa en los enlaces de navegación
-            navLinks.classList.toggle('nav-active');
-            
-            // Toggle clase activa en el botón hamburguesa
-            navToggle.classList.toggle('active');
-            
-            // Toggle clase para prevenir scroll en el body
-            document.body.classList.toggle('menu-open');
-          });
-        
-          // Cierra el menú cuando se hace clic en un enlace
-          document.querySelectorAll('.nav-link').forEach(link => {
-            link.addEventListener('click', function() {
-              navLinks.classList.remove('nav-active');
-              navToggle.classList.remove('active');
-              document.body.classList.remove('menu-open');
-            });
-          });
-          
-          // Cierra el menú cuando se hace clic fuera de él
-          document.addEventListener('click', function(event) {
-            const isClickInsideNav = navLinks.contains(event.target);
-            const isClickOnToggle = navToggle.contains(event.target);
-            
-            if (!isClickInsideNav && !isClickOnToggle && navLinks.classList.contains('nav-active')) {
-              navLinks.classList.remove('nav-active');
-              navToggle.classList.remove('active');
-              document.body.classList.remove('menu-open');
-            }
-          });
-          
-          // Ajusta el padding-top del contenido principal
-          const mainContent = document.querySelector('main');
-          if (mainContent) {
-            const navHeight = document.querySelector('.main-nav').offsetHeight;
-            mainContent.style.paddingTop = navHeight + 'px';
-          }
-        }
-      });
-    </script>
-  </body>
-</html>
