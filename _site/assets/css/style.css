@@ -425,8 +425,9 @@ footer a {
   }
 }
 /* Sección de servicios */
+/* Sección de servicios - Optimizado para móviles */
 .services-section {
-  padding: 5rem 0;
+  padding: 4rem 0;
   background-color: white;
   max-width: 1100px;
   margin: 0 auto;
@@ -438,6 +439,7 @@ footer a {
   color: #0f2e4d;
   margin-bottom: 3rem;
   position: relative;
+  padding: 0 1rem;
 }
 
 .services-section h2:after {
@@ -449,10 +451,12 @@ footer a {
   margin: 0.8rem auto 0;
 }
 
+/* Grid responsivo para servicios */
 .services-list {
   padding: 0 2rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  /* Ajuste clave: valor mínimo reducido a 300px en lugar de 450px */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
 }
 
@@ -465,6 +469,9 @@ footer a {
   padding: 1.5rem;
   border-radius: 8px;
   transition: background-color 0.3s, transform 0.3s;
+  /* Asegurar que los elementos no se desborden */
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .service-item:hover {
@@ -488,6 +495,9 @@ footer a {
   flex-shrink: 0;
   margin-top: 0.2rem;
   transition: transform 0.3s;
+  /* Tamaño fijo para evitar variaciones */
+  width: 40px;
+  text-align: center;
 }
 
 .service-item h3 {
@@ -502,9 +512,16 @@ footer a {
   line-height: 1.5;
 }
 
+.service-item > div {
+  /* Asegurar que el contenido de texto se adapte */
+  flex: 1;
+  min-width: 0; /* Importante para evitar desbordamiento */
+}
+
 .service-cta {
   text-align: center;
   margin-top: 3rem;
+  padding: 0 2rem;
 }
 
 .service-button {
@@ -525,18 +542,44 @@ footer a {
   color: white;
 }
 
-@media (max-width: 576px) {
+/* Optimizaciones para dispositivos móviles */
+@media (max-width: 768px) {
+  .services-section {
+    padding: 3rem 0;
+  }
+  .services-section h2 {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+  .services-list {
+    padding: 0 1.5rem;
+    gap: 1.5rem;
+    /* Forzar una sola columna en móviles */
+    grid-template-columns: 1fr;
+  }
   .service-item {
+    padding: 1.25rem;
+  }
+}
+@media (max-width: 576px) {
+  .services-list {
+    padding: 0 1rem;
+  }
+  .service-item {
+    /* Cambiar a diseño vertical en pantallas muy pequeñas */
     flex-direction: column;
     text-align: center;
-    gap: 0.8rem;
-    align-items: center;
+    padding: 1.5rem 1rem;
   }
   .service-item i {
-    margin: 0 auto 0.5rem;
+    margin: 0 0 1rem 0;
+    font-size: 2rem;
+    width: auto;
   }
-  .service-item:hover {
-    transform: translateY(-5px);
+  .service-button {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.8rem 1rem;
   }
 }
 /* Call to action */
