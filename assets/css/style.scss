@@ -751,26 +751,12 @@ footer {
   }
 }
 
-/* Grid de proyectos */
-//.projects-container {
-//  max-width: 1200px;
-//  margin: 0 auto;
-//  padding: 0 2rem;
-//}
-
 .projects-container {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
-  padding: 0 1rem;
+  padding: 0 0rem;
 }
-
-//.projects-grid {
-//  display: grid;
-//  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-//  gap: 2.5rem;
-//  margin-bottom: 4rem;
-//}
 
 
 .projects-grid {

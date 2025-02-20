@@ -679,12 +679,11 @@ footer a {
   color: white;
 }
 
-/* Grid de proyectos */
 .projects-container {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
-  padding: 0 1rem;
+  padding: 0 0rem;
 }
 
 .projects-grid {
