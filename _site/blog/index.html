@@ -57,6 +57,53 @@
 
 <div class="posts-container">
   
+  <article class="post-preview" data-category="data-analytics" data-title="inteligencia artificial en acción: insights del conversatorio ejecutivo en aes panamá" data-tags="inteligencia artificial innovación liderazgo transformación digital enterprise ai">
+    <div class="post-cover">
+      
+        <img src="/assets/images/blog/2025-02-21-aes/cover-ronald-mego.jpg" alt="Inteligencia Artificial en Acción: Insights del Conversatorio Ejecutivo en AES Panamá" loading="lazy" />
+      
+    </div>
+    <div class="post-content-preview">
+      <div class="post-meta">
+        <span class="post-date">
+          <i class="far fa-calendar-alt"></i>
+          21 February, 2025
+        </span>
+        
+          <span class="reading-time">
+            <i class="far fa-clock"></i>
+            8 min de lectura
+          </span>
+        
+      </div>
+      
+      <h2 class="post-title"><a href="/blog/2025/02/21/aes/">Inteligencia Artificial en Acción: Insights del Conversatorio Ejecutivo en AES Panamá</a></h2>
+      
+      <p class="preview-text">Inteligencia Artificial en Acción: Insights del Conversatorio Ejecutivo en AES Panamá
+</p>
+      
+      
+      <div class="post-tags">
+        
+          <span class="tag">Inteligencia Artificial</span>
+        
+          <span class="tag">Innovación</span>
+        
+          <span class="tag">Liderazgo</span>
+        
+          <span class="tag">Transformación Digital</span>
+        
+          <span class="tag">Enterprise AI</span>
+        
+      </div>
+      
+      
+      <a href="/blog/2025/02/21/aes/" class="read-more-link">
+        Leer artículo completo <i class="fas fa-long-arrow-alt-right"></i>
+      </a>
+    </div>
+  </article>
+  
   <article class="post-preview" data-category="data-analytics" data-title="implementando un mcp server para análisis de datos" data-tags="data analytics postgresql real-time analytics dashboard development data visualization">
     <div class="post-cover">
       
@@ -168,63 +215,69 @@
         <h2>Suscríbete al newsletter</h2>
         <p>Recibe actualizaciones sobre nuevos artículos, recursos y tendencias en el mundo de los datos.</p>
       </div>
-      <form class="newsletter-form">
+      <form action="https://formspree.io/f/mvgzypee" method="POST" class="newsletter-form">
         <div class="form-group">
-          <input type="email" placeholder="Tu correo electrónico" required="" class="form-input" />
-          <button type="submit" class="form-button">Suscribirse</button>
+          <input type="email" name="email" placeholder="Tu correo electrónico" required="" class="form-input" />
+          <button type="submit" class="form-button">
+            <span class="default-text">Suscribirse</span>
+            <span class="loading-text" style="display: none;">
+              <i class="fas fa-spinner fa-spin"></i> Enviando...
+            </span>
+          </button>
         </div>
         <div class="form-disclaimer">
           <small>Tu privacidad es importante. Nunca compartimos tu información.</small>
         </div>
+        <div class="form-message" style="display: none;"></div>
       </form>
     </div>
   </div>
 </div>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Filtrado por categorías
-    const filterButtons = document.querySelectorAll('.filter-btn');
-    const postPreviews = document.querySelectorAll('.post-preview');
-    const searchInput = document.getElementById('blog-search');
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.querySelector('.newsletter-form');
+  const formMessage = form.querySelector('.form-message');
+  const defaultText = form.querySelector('.default-text');
+  const loadingText = form.querySelector('.loading-text');
+  
+  form.addEventListener('submit', async function(e) {
+    e.preventDefault();
     
-    function filterPosts() {
-      const searchTerm = searchInput.value.toLowerCase().trim();
-      const activeFilter = document.querySelector('.filter-btn.active').dataset.filter;
-      
-      postPreviews.forEach(post => {
-        const postTitle = post.dataset.title;
-        const postTags = post.dataset.tags;
-        const postCategory = post.dataset.category;
-        
-        const matchesSearch = searchTerm === '' || 
-                             postTitle.includes(searchTerm) || 
-                             postTags.includes(searchTerm);
-                             
-        const matchesCategory = activeFilter === 'all' || postCategory === activeFilter;
-        
-        if (matchesSearch && matchesCategory) {
-          post.style.display = 'flex';
-          setTimeout(() => {
-            post.classList.add('fade-in');
-          }, 100);
-        } else {
-          post.style.display = 'none';
-          post.classList.remove('fade-in');
+    // Mostrar estado de carga
+    defaultText.style.display = 'none';
+    loadingText.style.display = 'inline-block';
+    
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: {
+          Accept: 'application/json'
         }
       });
+      
+      if (response.ok) {
+        // Éxito
+        formMessage.innerHTML = '¡Gracias por suscribirte! Te enviaremos las últimas actualizaciones.';
+        formMessage.style.display = 'block';
+        formMessage.className = 'form-message success';
+        form.reset();
+      } else {
+        throw new Error('Error al enviar');
+      }
+    } catch (error) {
+      // Error
+      formMessage.innerHTML = 'Hubo un error al procesar tu suscripción. Por favor intenta nuevamente.';
+      formMessage.style.display = 'block';
+      formMessage.className = 'form-message error';
     }
     
-    filterButtons.forEach(button => {
-      button.addEventListener('click', function() {
-        filterButtons.forEach(btn => btn.classList.remove('active'));
-        this.classList.add('active');
-        filterPosts();
-      });
-    });
-    
-    searchInput.addEventListener('input', filterPosts);
+    // Restaurar botón
+    defaultText.style.display = 'inline-block';
+    loadingText.style.display = 'none';
   });
+});
 </script>
 
 
