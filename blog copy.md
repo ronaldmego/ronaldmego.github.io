@@ -100,67 +100,61 @@ title: Blog - Ronald Mego
         <h2>Suscríbete al newsletter</h2>
         <p>Recibe actualizaciones sobre nuevos artículos, recursos y tendencias en el mundo de los datos.</p>
       </div>
-      <form action="https://formspree.io/f/mvgzypee" method="POST" class="newsletter-form">
+      <form class="newsletter-form">
         <div class="form-group">
-          <input type="email" name="email" placeholder="Tu correo electrónico" required class="form-input">
-          <button type="submit" class="form-button">
-            <span class="default-text">Suscribirse</span>
-            <span class="loading-text" style="display: none;">
-              <i class="fas fa-spinner fa-spin"></i> Enviando...
-            </span>
-          </button>
+          <input type="email" placeholder="Tu correo electrónico" required class="form-input">
+          <button type="submit" class="form-button">Suscribirse</button>
         </div>
         <div class="form-disclaimer">
           <small>Tu privacidad es importante. Nunca compartimos tu información.</small>
         </div>
-        <div class="form-message" style="display: none;"></div>
       </form>
     </div>
   </div>
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const form = document.querySelector('.newsletter-form');
-  const formMessage = form.querySelector('.form-message');
-  const defaultText = form.querySelector('.default-text');
-  const loadingText = form.querySelector('.loading-text');
-  
-  form.addEventListener('submit', async function(e) {
-    e.preventDefault();
+  document.addEventListener('DOMContentLoaded', function() {
+    // Filtrado por categorías
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const postPreviews = document.querySelectorAll('.post-preview');
+    const searchInput = document.getElementById('blog-search');
     
-    // Mostrar estado de carga
-    defaultText.style.display = 'none';
-    loadingText.style.display = 'inline-block';
-    
-    try {
-      const response = await fetch(form.action, {
-        method: 'POST',
-        body: new FormData(form),
-        headers: {
-          Accept: 'application/json'
+    function filterPosts() {
+      const searchTerm = searchInput.value.toLowerCase().trim();
+      const activeFilter = document.querySelector('.filter-btn.active').dataset.filter;
+      
+      postPreviews.forEach(post => {
+        const postTitle = post.dataset.title;
+        const postTags = post.dataset.tags;
+        const postCategory = post.dataset.category;
+        
+        const matchesSearch = searchTerm === '' || 
+                             postTitle.includes(searchTerm) || 
+                             postTags.includes(searchTerm);
+                             
+        const matchesCategory = activeFilter === 'all' || postCategory === activeFilter;
+        
+        if (matchesSearch && matchesCategory) {
+          post.style.display = 'flex';
+          setTimeout(() => {
+            post.classList.add('fade-in');
+          }, 100);
+        } else {
+          post.style.display = 'none';
+          post.classList.remove('fade-in');
         }
       });
-      
-      if (response.ok) {
-        // Éxito
-        formMessage.innerHTML = '¡Gracias por suscribirte! Te enviaremos las últimas actualizaciones.';
-        formMessage.style.display = 'block';
-        formMessage.className = 'form-message success';
-        form.reset();
-      } else {
-        throw new Error('Error al enviar');
-      }
-    } catch (error) {
-      // Error
-      formMessage.innerHTML = 'Hubo un error al procesar tu suscripción. Por favor intenta nuevamente.';
-      formMessage.style.display = 'block';
-      formMessage.className = 'form-message error';
     }
     
-    // Restaurar botón
-    defaultText.style.display = 'inline-block';
-    loadingText.style.display = 'none';
+    filterButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        this.classList.add('active');
+        filterPosts();
+      });
+    });
+    
+    searchInput.addEventListener('input', filterPosts);
   });
-});
 </script>
