@@ -14,7 +14,7 @@ title: Ronald Mego - Professional Background
   <div class="container">
     <div class="profile-card">
       <div class="download-cv-button-container">
-        <a href="/assets/docs/RonaldMego_CV.pdf" class="download-cv-button">
+        <a href="/assets/docs/RonaldMego_CV.pdf" class="download-cv-button" style="cursor: pointer; z-index: 5; position: relative;">
           <i class="fas fa-download"></i> Download CV
         </a>
       </div>
