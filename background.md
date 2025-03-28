@@ -5,8 +5,8 @@ title: Ronald Mego - Professional Background
 
 <div class="professional-banner smaller">
   <div class="banner-content">
-    <h1>Ronald Mego - Professional Background</h1>
-    <p class="tagline">15+ years transforming data into strategic value.</p>
+    <h1>Ronald Mego</h1>
+    <p class="tagline">Professional Background</p>
   </div>
 </div>
 
@@ -19,8 +19,8 @@ title: Ronald Mego - Professional Background
         </a>
       </div>
       <h2>Profile</h2>
-      <p class="summary-text">Data leader with 15+ years of experience transforming data into business value across telecom, fintech, and digital industries.</p>
-      <p class="summary-text">I focus on building data-driven solutions that drive revenue growth, optimize costs, and enhance customer experience. My approach combines business strategy with technical expertise, leading multicultural teams to deliver impactful analytics solutions. I specialize in turning complex data challenges into clear insights that help organizations make better decisions. Currently leading data & AI initiatives at Millicom | Tigo, where I focus on developing data monetization strategies and implementing innovative analytics solutions across Latin America.</p>
+      <p class="summary-text">Data leader with 15+ years of experience helping companies as a professional and consultant in telecom, fintech, and e-commerce industries.</p>
+      <p class="summary-text">I focus on building data-driven solutions that drive revenue growth, optimize costs, and enhance customer experience. My approach combines business strategy with technical expertise in analytics, AI, and data architecture, leading multicultural teams to deliver impactful results. I specialize in turning complex data challenges into clear insights that enable better organizational decision-making. Currently leading data & AI initiatives at Millicom | Tigo, where I develop data monetization strategies and implement innovative analytics solutions across Latin America.</p>
     </div>
   </div>
 </div>
@@ -45,8 +45,8 @@ title: Ronald Mego - Professional Background
           </div>
           <div class="responsibilities">
             <ul>
-                <li>Lead and develop a Data Analytics Roadmap to enhance Tigo Users Digital experience.</li>
-                <li>Design and implement a Data Monetization Strategy to drive new revenue streams and optimize costs.</li>
+                <li>Lead and develop a Data Analytics Roadmap to enhance Tigo Users Digital experience (~50 million), leveraging AI and Machine Learning models.</li>
+                <li>Design and implement a Data Monetization Strategy to drive new revenue streams and optimize costs, aligning with the Global CDO.</li>
             </ul>
           </div>
         </div>
@@ -88,7 +88,7 @@ title: Ronald Mego - Professional Background
           <div class="responsibilities">
             <ul>
                 <li>Design and lead the Customer Segmentation and Campaign Management strategy powered by Customer Intelligence for Tigo Money, aligned with the Global CMO</li>
-                <li>Develop and implement a Digital Marketing Analytics framework to measure the effectiveness of marketing campaigns, optimizing the marketing mix and increasing ROI.</li>
+                <li>Develop and implement a Digital Marketing Analytics framework to measure the effectiveness of marketing campaigns, optimizing the funnel conversion and increasing ROI.</li>
             </ul>
           </div>
         </div>
