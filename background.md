@@ -5,7 +5,7 @@ title: Ronald Mego - Professional Background
 
 <div class="professional-banner smaller">
   <div class="banner-content">
-    <h1>Professional Background</h1>
+    <h1>Ronald Mego - Professional Background</h1>
     <p class="tagline">15+ years transforming data into strategic value.</p>
   </div>
 </div>
