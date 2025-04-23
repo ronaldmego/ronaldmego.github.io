@@ -6,7 +6,7 @@ title: Ronald Mego - Professional Background
 <div class="professional-banner smaller">
   <div class="banner-content">
     <h1>Ronald Mego</h1>
-    <p class="tagline">Professional Background</p>
+    <p class="tagline">Sr. Data Manager | Data Governance & Strategy | Agentic AI Innovation | Telecom | Fintech</p>
   </div>
 </div>
 
@@ -20,7 +20,7 @@ title: Ronald Mego - Professional Background
       </div>
       <h2>Profile</h2>
       <p class="summary-text">Data leader with 15+ years of experience helping companies as a professional and consultant in telecom, fintech, and e-commerce industries.</p>
-      <p class="summary-text">I focus on building data-driven solutions that drive revenue growth, optimize costs, and enhance customer experience. My approach combines business strategy with technical expertise in analytics, AI, and data architecture, leading multicultural teams to deliver impactful results. I specialize in turning complex data challenges into clear insights that enable better organizational decision-making. Currently leading data & AI initiatives at Millicom | Tigo, where I develop data monetization strategies and implement innovative analytics solutions across Latin America.</p>
+      <p class="summary-text">I focus on building data-driven solutions that drive revenue growth, optimize costs, and enhance customer experience. My approach combines business strategy with technical expertise in analytics, AI, and data architecture, leading multicultural teams to deliver impactful results. I specialize in turning complex data challenges into clear insights that enable better organizational decision-making. Currently leading data & AI initiatives at Millicom | Tigo, where I develop data governance projects and implement innovative AI solutions across Latin America.</p>
     </div>
   </div>
 </div>
@@ -46,7 +46,7 @@ title: Ronald Mego - Professional Background
           <div class="responsibilities">
             <ul>
                 <li>Lead and develop a Data Analytics Roadmap to enhance Tigo Users Digital experience (~50 million), leveraging AI and Machine Learning models.</li>
-                <li>Design and implement a Data Monetization Strategy to drive new revenue streams and optimize costs, aligning with the Global CDO.</li>
+                <li>Design and implement a Data Governance and Monetization Strategy to drive new revenue streams and optimize costs, aligning with the Global CDO.</li>
             </ul>
           </div>
         </div>
@@ -66,7 +66,7 @@ title: Ronald Mego - Professional Background
           </div>
           <div class="responsibilities">
             <ul>
-                <li>Leading Tigo Money's data strategy across data governance, analytics and dashboarding to enable monetizable use cases while ensuring compliance standards.</li>
+                <li>Leading Tigo Money's data strategy across Data Governance, analytics and dashboarding to enable monetizable use cases while ensuring compliance standards.</li>
                 <li>Implement Data Analytics tools andframewrok for Mobile Financial Services with Lending Risk management, Fraud detection and Customer Insights.</li>
             </ul>
           </div>
@@ -108,7 +108,7 @@ title: Ronald Mego - Professional Background
           </div>
           <div class="responsibilities">
             <ul>
-                <li>Develop user segmentation models and content recommendation models, supporting business objectives related to subscription growth and engagement.</li>
+                <li>Lead Data Governance and Develop user segmentation models and content recommendation models, supporting business objectives related to subscription growth and engagement.</li>
                 <li>Implement a zero and 1st (first) party data consolidation project into a golden record, enabling audience data monetization and the generation of new revenue streams.</li>
             </ul>
           </div>
@@ -137,7 +137,7 @@ title: Ronald Mego - Professional Background
             </div>
             <div class="responsibilities">
               <ul>
-                <li>Manage and model data for 17 million customers across home, prepaid, and postpaid products, establishing a single source of truth (SSOT) to support the Customer 360 business strategy, enhancing customer satisfaction and campaign effectiveness.</li>
+                <li>Data Governance for 17 million customers across home, prepaid, and postpaid products, establishing a single source of truth (SSOT) to support the Customer 360 business strategy, enhancing customer satisfaction and campaign effectiveness.</li>
                 <li>Develop dashboards for sales, collections, and customer support, and implement the first text mining model to analyze customer satisfaction in chatbot interactions.</li>
               </ul>
             </div>
@@ -251,6 +251,68 @@ title: Ronald Mego - Professional Background
         <h2>Technical Skills</h2>
 
         <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Data Strategy</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Data Governance</span>
+            <span class="skill-tag">Data Quality</span>
+            <span class="skill-tag">Data Monetization</span>
+            <span class="skill-tag">Data Privacy</span>
+            <span class="skill-tag">Data Security</span>
+            <span class="skill-tag">Data Ethics</span>
+
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3><i class="fas fa-users"></i> Soft Skills</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Leadership</span>
+            <span class="skill-tag">Team Management</span>
+            <span class="skill-tag">Project Management</span>
+            <span class="skill-tag">Agile Methodologies</span>
+            <span class="skill-tag">Stakeholder Management</span>
+
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Financial Skills</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Financial Modeling</span>
+            <span class="skill-tag">Revenue Forecasting</span>
+            <span class="skill-tag">Cost Analysis</span>
+            <span class="skill-tag">Pricing Strategy</span>
+            <span class="skill-tag">Profitability Analysis</span>
+
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Machine Learning</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Supervised Learning</span>
+            <span class="skill-tag">Unsupervised Learning</span>
+            <span class="skill-tag">Reinforcement Learning</span>
+            <span class="skill-tag">Deep Learning</span>
+            <span class="skill-tag">Natural Language Processing</span>
+
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Cloud & DevOps</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Azure</span>
+            <span class="skill-tag">GCP</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Kubernetes</span>
+            <span class="skill-tag">Terraform</span>
+
+          </div>
+        </div>
+
+        <div class="skill-category">
           <h3><i class="fas fa-chart-bar"></i> Data Story Telling</h3>
           <div class="skill-tags">
             <span class="skill-tag">Advanced Excel</span>
@@ -280,43 +342,6 @@ title: Ronald Mego - Professional Background
             <span class="skill-tag">CI/CD</span>
             <span class="skill-tag">ML Ops</span>
             <span class="skill-tag">Airflow</span>
-
-          </div>
-        </div>
-
-        <div class="skill-category">
-          <h3><i class="fas fa-tools"></i> Financial Skills</h3>
-          <div class="skill-tags">
-            <span class="skill-tag">Financial Modeling</span>
-            <span class="skill-tag">Revenue Forecasting</span>
-            <span class="skill-tag">Cost Analysis</span>
-            <span class="skill-tag">Pricing Strategy</span>
-            <span class="skill-tag">Profitability Analysis</span>
-
-          </div>
-        </div>
-
-        <div class="skill-category">
-          <h3><i class="fas fa-tools"></i> Data Strategy</h3>
-          <div class="skill-tags">
-            <span class="skill-tag">Data Governance</span>
-            <span class="skill-tag">Data Quality</span>
-            <span class="skill-tag">Data Monetization</span>
-            <span class="skill-tag">Data Privacy</span>
-            <span class="skill-tag">Data Security</span>
-            <span class="skill-tag">Data Ethics</span>
-
-          </div>
-        </div>
-
-        <div class="skill-category">
-          <h3><i class="fas fa-users"></i> Soft Skills</h3>
-          <div class="skill-tags">
-            <span class="skill-tag">Leadership</span>
-            <span class="skill-tag">Communication</span>
-            <span class="skill-tag">Team Collaboration</span>
-            <span class="skill-tag">Problem Solving</span>
-            <span class="skill-tag">Impactull Presentation Skills</span>
 
           </div>
         </div>
