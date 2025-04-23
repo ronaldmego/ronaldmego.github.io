@@ -5,7 +5,7 @@ title: Portfolio - Ronald Mego
 
 <div class="professional-banner smaller">
   <div class="banner-content">
-    <h1>Portfolio</h1>
+    <h1>Portfolio de Ronald Mego</h1>
     <p class="tagline">Proyectos destacados en Data Analytics, Machine Learning y AI</p>
   </div>
 </div>

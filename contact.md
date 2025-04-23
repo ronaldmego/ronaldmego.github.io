@@ -5,7 +5,7 @@ title: Contact - Ronald Mego
 
 <div class="professional-banner smaller">
   <div class="banner-content">
-    <h1>Let's Connect</h1>
+    <h1>Let's Connect with Ronald Mego</h1>
     <p class="tagline">Para consultas de negocios, consultoría, colaboraciones o propuestas</p>
   </div>
 </div>

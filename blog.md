@@ -5,7 +5,7 @@ title: Blog - Ronald Mego
 
 <div class="professional-banner smaller">
   <div class="banner-content">
-    <h1>Blog</h1>
+    <h1>Blog de Ronald Mego</h1>
     <p class="tagline">Compartiendo conocimiento en Data Analytics, AI y tendencias tecnológicas</p>
   </div>
 </div>
