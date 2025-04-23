@@ -6,7 +6,7 @@ title: Ronald Mego - Professional Background
 <div class="professional-banner smaller">
   <div class="banner-content">
     <h1>Ronald Mego</h1>
-    <p class="tagline">Sr. Data Manager | Data Governance & Strategy | Agentic AI Innovation | Telecom | Fintech</p>
+    <p class="tagline">Sr. Data Manager | Data Governance & Strategy | Agentic AI Innovation</p>
   </div>
 </div>
 
