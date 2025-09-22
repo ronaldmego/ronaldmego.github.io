@@ -6,7 +6,7 @@ title: Ronald Mego - Professional Background
 <div class="professional-banner smaller">
   <div class="banner-content">
     <h1>Ronald Mego</h1>
-    <p class="tagline">Sr. Data Manager | Data Governance & Strategy | Agentic AI Innovation</p>
+    <p class="tagline">Sr. Data Manager | Data Governance & Strategy | Digital AI Innovation | Telecom | Fintech</p>
   </div>
 </div>
 
@@ -38,7 +38,7 @@ title: Ronald Mego - Professional Background
         </div>
         <div class="timeline-content">
           <div class="date-badge">01/2025 ‐ present</div>
-          <h3>Data Analytics and Innovation Manager</h3>
+          <h3>Data Analytics and Digital Manager</h3>
           <div class="company-info">
             <a href="https://www.millicom.com/" target="_blank" class="company-link">Millicom | Tigo</a>
             <span class="location">Panama City, PA</span>
