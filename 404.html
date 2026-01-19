@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ronald Mego - Page Moved</title>
+  
+  <!-- Redirect to new site -->
+  <meta http-equiv="refresh" content="2; url=https://ronaldmego.com">
+  <link rel="canonical" href="https://ronaldmego.com">
+  
+  <style>
+    body {
+      background: #050505;
+      color: #00ff41;
+      font-family: 'JetBrains Mono', monospace;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+    a { color: #00ff41; }
+    .blink { animation: blink 1s infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+</head>
+<body>
+  <p>> This page has moved<span class="blink">_</span></p>
+  <p>Redirecting to <a href="https://ronaldmego.com">ronaldmego.com</a>...</p>
+  <script>
+    setTimeout(function() {
+      window.location.replace("https://ronaldmego.com");
+    }, 2000);
+  </script>
+</body>
+</html>
